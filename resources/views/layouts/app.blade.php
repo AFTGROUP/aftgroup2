@@ -158,7 +158,7 @@
     <!-- Page loading spinner -->
     <div class="page-loading active">
       <div class="page-loading-inner">
-        <div class="page-spinner"></div><span>Loading...</span>
+        <div class="page-spinner"></div><span>Chargement...</span>
       </div>
     </div>
 
@@ -186,27 +186,27 @@
                 
                 
                 <li class="nav-item dropdown">
-                  <a href="#accueil" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Présentation</a>
+                  <a href="/" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Présentation</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#apropos" class="dropdown-item">Qui sommes-nous ?</a></li>
-                    <li><a href="#travaux" class="dropdown-item">Nos travaux</a></li>
-                    <li><a href="#why" class="dropdown-item">Pourquoi nous choisir ?</a></li>
+                    <li><a href="/apropos" class="dropdown-item">Qui sommes-nous ?</a></li>
+                    <li><a href="/travaux" class="dropdown-item">Nos travaux</a></li>
+                    <li><a href="/apropos#wcs" class="dropdown-item">Pourquoi nous choisir ?</a></li>
                     
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a href="#services" class="nav-link">Nos Services</a>
+                  <a href="/services" class="nav-link">Nos Services</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#formations" class="nav-link">Nos Formations</a>
+                  <a href="/formations" class="nav-link">Nos Formations</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#devis" class="nav-link">Demander un devis</a>
+                  <a href="/devis" class="nav-link">Demander un devis</a>
                 </li>
               </ul>
             </div>
             <div class="offcanvas-header border-top">
-              <a href="mailto:info@aftgroup.com" class="btn btn-primary w-100" target="_blank" rel="noopener">
+              <a href="/contact" class="btn btn-primary w-100" target="_blank" rel="noopener">
                 Contactez Nous
               </a>
             </div>      
@@ -219,7 +219,7 @@
           <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a href="mailto:info@aftgroup.com" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
+          <a href="/contact" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
             Contactez Nous
           </a>
         </div>
@@ -273,10 +273,10 @@
                 </h6>
                 <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
                   <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                    <li class="nav-item"><a href="#accueil" class="nav-link d-inline-block px-0 pt-1 pb-2">Accueil</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                    <li class="nav-item"><a href="#formations" class="nav-link d-inline-block px-0 pt-1 pb-2">Formations</a></li>
-                    <li class="nav-item"><a href="#devis" class="nav-link d-inline-block px-0 pt-1 pb-2">Demander un devis</a></li>
+                    <li class="nav-item"><a href="/accueil" class="nav-link d-inline-block px-0 pt-1 pb-2">Accueil</a></li>
+                    <li class="nav-item"><a href="/services" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
+                    <li class="nav-item"><a href="/formations" class="nav-link d-inline-block px-0 pt-1 pb-2">Formations</a></li>
+                    <li class="nav-item"><a href="/devis" class="nav-link d-inline-block px-0 pt-1 pb-2">Demander un devis</a></li>
                   </ul>
                   <ul class="nav flex-column mb-2 mb-lg-0">
                     <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
