@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Mirrored from silicon.createx.studio/landing-software-company.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:18:10 GMT -->
+
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -32,6 +31,7 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="assets/css/form.css">
 
     <!-- Page loading styles -->
     <style>
@@ -149,7 +149,7 @@
 
   <!-- Body -->
   <body>
-    
+
     <!-- Google Tag Manager (noscript)-->
     <noscript>
       <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
@@ -170,146 +170,27 @@
 
       <!-- Navbar -->
       <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
-      <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
-        <div class="container px-3">
-          <a href="" class="navbar-brand pe-3">
-            <img src="assets/img/logo.png" width="150" alt="">
-          
-          </a>
-          <div id="navbarNav" class="offcanvas offcanvas-end">
-            <div class="offcanvas-header border-bottom">
-              <h5 class="offcanvas-title">Menu</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                
-                <li class="nav-item dropdown">
-                  <a href="/" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Présentation</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/apropos" class="dropdown-item">Qui sommes-nous ?</a></li>
-                    <li><a href="/travaux" class="dropdown-item">Nos travaux</a></li>
-                    <li><a href="/apropos#wcs" class="dropdown-item">Pourquoi nous choisir ?</a></li>
-                    
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="/services" class="nav-link">Nos Services</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/formations" class="nav-link">Nos Formations</a>
-                </li>
-                <li class="nav-item">
-                  <a href="/devis" class="nav-link">Demander un devis</a>
-                </li>
-              </ul>
-            </div>
-            <div class="offcanvas-header border-top">
-              <a href="/contact" class="btn btn-primary w-100" target="_blank" rel="noopener">
-                Contactez Nous
-              </a>
-            </div>      
-          </div>
-          <div class="form-check form-switch mode-switch pe-lg-1 ms-auto me-4" data-bs-toggle="mode">
-            <input type="checkbox" class="form-check-input" id="theme-mode">
-            <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
-            <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
-          </div>
-          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a href="/contact" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
-            Contactez Nous
-          </a>
-        </div>
-      </header>
+
+
+      @include('partials._header')
 
       @yield('content')
 
 
-      
+
 
 
       <!-- CTA -->
-      
+
     </main>
 
-    
+
 
 
 
     <!-- Footer -->
-    <footer class="footer dark-mode bg-dark pt-5 pb-4 pb-lg-5" style="margin-top: -150px;">
-      <div style="height: 158px;"></div>
-      <div class="container pt-lg-4">
-        <div class="row pb-5">
-          <div class="col-lg-4 col-md-6">
-            <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-              <img src="assets/img/logob.png" width="150" alt="">
-            
-            </div>
-            <div class="d-flex">
-              <a href="https://www.facebook.com/aftgroupsarl?mibextid=ZbWKwL" class="btn btn-icon btn-outline-secondary btn-facebook me-3">
-                <i class="bx bxl-facebook"></i>
-              </a>
-              <a href="https://wa.me/message/JHTQGPWJ4R2PB1" class="btn btn-icon btn-outline-secondary btn-whatsapp me-3">
-                <i class="bx bxl-whatsapp"></i>
-              </a>
-              <a href="https://www.linkedin.com/company/aft-groupsarl/" class="btn btn-icon btn-outline-secondary btn-linkedin me-3">
-                <i class="bx bxl-linkedin"></i>
-              </a>
-              <a href="https://www.instagram.com/aft.group" class="btn btn-icon btn-outline-secondary btn-instagram">
-                <i class="bx bxl-instagram"></i>
-              </a>
-            </div>
-            
-          </div>
-          <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-            <div id="footer-links" class="row">
-              <div class="col-lg-4">
-                <h6 class="mb-2">
-                  <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Liens </a>
-                </h6>
-                <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                  <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                    <li class="nav-item"><a href="/accueil" class="nav-link d-inline-block px-0 pt-1 pb-2">Accueil</a></li>
-                    <li class="nav-item"><a href="/services" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                    <li class="nav-item"><a href="/formations" class="nav-link d-inline-block px-0 pt-1 pb-2">Formations</a></li>
-                    <li class="nav-item"><a href="/devis" class="nav-link d-inline-block px-0 pt-1 pb-2">Demander un devis</a></li>
-                  </ul>
-                  <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Politique de confidentialité</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-3">
-                <h6 class="mb-2">
-                  <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
-                </h6>
-                <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                  <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="https://www.facebook.com/aftgroupsarl?mibextid=ZbWKwL" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                    <li class="nav-item"><a href="https://www.linkedin.com/company/aft-groupsarl/" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                    <li class="nav-item"><a href="https://wa.me/message/JHTQGPWJ4R2PB1" class="nav-link d-inline-block px-0 pt-1 pb-2">Whatsapp</a></li>
-                    <li class="nav-item"><a href="https://www.instagram.com/aft.group" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                <h6 class="mb-2">Contact</h6>
-                <a href="mailto:email@example.com" class="fw-medium"> aftgroupsarl@gmail.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-          <span class="text-light opacity-50">Copyright © 2023 | Made by AFT GROUP</span>
-         
-        </p>
-      </div>
-    </footer>
+
+    @include('partials._footer')
 
 
     <!-- Back to top button -->
