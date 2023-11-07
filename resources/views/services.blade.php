@@ -5,7 +5,7 @@
 <!-- Hero slider + BG parallax -->
 <section class="jarallax dark-mode bg-dark py-xxl-5" data-jarallax data-speed="0.4" id="accueil">
     <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent"></span>
-    <div class="jarallax-img" style="background-image: url(assets/img/landing/software-company/f3.jpg);"></div>
+    <div class="jarallax-img" style="background-image: url(assets/img/services-images/service01.jpg);background-position:center;background-size:cover;"></div>
     <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
 
       <!-- Slider controls (Prev / next) -->
@@ -52,7 +52,7 @@
   
   <style>
     .card-services {
-      background-color:#6610f2;
+      background-color:blue;
       position: absolute;
       z-index: 1;
       bottom: 0px;
@@ -75,9 +75,9 @@
       padding: 60px;
       text-align: justify;
     }
-    .col-lg-6.services li{
+  .services li{
         color:white;
-        padding: 20px;
+        padding: 10px;
         font-weight: 900;
         font-size: 20px;
         z-index: 2;
@@ -85,15 +85,15 @@
 
 
     }
-    .col-lg-6.services {
+  .services {
   position: relative;
-  height: 400px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   border-radius: 30px!important;
 }
 
-.col-lg-6.services::before {
+.services::before {
   content: '';
   position: absolute;
   top: 0;
@@ -127,7 +127,25 @@
       color: black !important;
       display: block;
     }
-
+    .vector{
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+      background-image: url('assets/img/services-images/rectangle2.png');
+      z-index:-1;
+      height: 450px;
+      
+    }
+    .vector2{
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: cover;
+      background-position-x: -90%;
+      background-image: url('assets/img/services-images/rectangle2.png');
+      z-index:-1;
+      height: 450px;
+      
+    }
   </style>
 
 
@@ -135,10 +153,10 @@
     <div class="card-services">
       <div class="row">
         <div class="col-lg-4 col-sm-4 services-one">
-          <a class="text-light active-link" data-tab="tab1" >Solution web et Digitales</a>
+          <a class="text-light active-link" data-tab="tab1" >Solution web<br> et Digitales</a>
         </div>
         <div class="col-lg-4 col-sm-4 services-two">
-          <a class="text-light" data-tab="tab2">Services Informatiques</a>
+          <a class="text-light" data-tab="tab2">Services <br>Informatiques</a>
         </div>
         <div class="col-lg-4 col-sm-4 services-three">
           <a class="text-light" data-tab="tab3">Innovation<br> digitales</a>
@@ -151,7 +169,7 @@
 
 
 
-  <div class="container py-4 service-one">
+  <div class="container py-4">
     <div class="row py-4">
       <!-- Service one -->
       <div class="tab-content active" id="tab1">
@@ -166,8 +184,10 @@
                             votre présence en ligne.
                          </p>
                       </div>
-                      <div class="col-lg-6 services rounded" style="background-image: url('assets/img/f3.jpg');height:400px;background-size: cover; background-position: center;opacity:0.7px;">
-                         <ul>
+
+                      <div class="col-lg-6 vector">
+                      <div class="services" style="background-image: url('assets/img/f3.jpg');">
+                        <ul>
                             <li data-toggle="tooltip" data-placement="bottom" title="Logo"> Logo </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Charte graphique"> Charte graphique </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Signature email"> Signature email </li>
@@ -175,17 +195,22 @@
                             <li data-toggle="tooltip" data-placement="bottom" title="Logo button"> Mise en page de document </li>
                          </ul>
                       </div>
+                      </div>      
+                    </div>                   
+
                    </div>
                    <!-- item 2 -->
                    <div class="row py-4">
-                      <div class="col-lg-6 services rounded" style="background-image: url('assets/img/f2.jpg');height:400px;background-size: cover; background-position: center;opacity:0.7px;">
-                         <ul>
-                            <li data-toggle="tooltip" data-placement="bottom" title="Logo"> Réalisation de maquette web / mobile </li>
+                    <div class="col-lg-6 vector2">
+                      <div class="services" style="background-image: url('assets/img/f2.jpg');">
+                          <ul>
+                          <li data-toggle="tooltip" data-placement="bottom" title="Logo"> Réalisation de maquette web / mobile </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Charte graphique">Réalisation de mockup pour mobile  </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Signature email"> Mise à jour ou modification de maquette </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Logo button"> Prototypage</li>
                          </ul>
                       </div>
+                    </div>
                       <div class="col-lg-6 services-text">
                          <h2>Conception web: UI/UX</h2>
                          <p> Nous sommes passionnés par la création d'expériences utilisateur
@@ -211,24 +236,28 @@
                             comment atteindre votre public cible et générer des résultats tangibles.
                          </p>
                       </div>
-                      <div class="col-lg-6 services rounded" style="background-image: url('assets/img/f1.jpg');height:400px;background-size: cover; background-position: center;opacity:0.7px;">
-                         <ul>
+                      <div class="col-lg-6 vector2">
+                        <div class="services" style="background-image: url('assets/img/f2.jpg');">
+                          <ul>
                             <li data-toggle="tooltip" data-placement="bottom" title="Logo"> Stratégie digitale </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Charte graphique"> Emailing </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Signature email"> Réseaux sociaux</li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Logo button"> Réfeérence naturel (SEO) et payant (SEA) </li>
                          </ul>
+                        </div>
                       </div>
                    </div>
                    <!-- item 4 -->
                    <div class="row py-4">
-                      <div class="col-lg-6 services rounded" style="background-image: url('assets/img/f2.jpg');height:400px;background-size: cover; background-position: center;opacity:0.7px;">
-                         <ul>
-                            <li data-toggle="tooltip" data-placement="bottom" title="site vitrine"> Site vitrine </li>
+                    <div class="col-lg-6 vector2">
+                      <div class="services" style="background-image: url('assets/img/f2.jpg');">
+                         <ul>  
+                         <li data-toggle="tooltip" data-placement="bottom" title="site vitrine"> Site vitrine </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="site sur mesure"> Site sur mesure </li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Site e-commerce"> Site e-commerce</li>
                             <li data-toggle="tooltip" data-placement="bottom" title="Catalogue en ligne"> Catalogue en ligne </li>
                          </ul>
+                      </div>
                       </div>
                       <div class="col-lg-6 services-text">
                          <h2>Développement Web et Mobile</h2>
@@ -252,11 +281,13 @@
                             prêts à transformer vos besoins en solutions logicielles puissantes.
                          </p>
                       </div>
-                      <div class="col-lg-6 services rounded" style="background-image: url('assets/img/f2.jpg');height:400px;background-size: cover; background-position: center;filter: contrast(-120%);">
+                      <div class="col-lg-6 vector2">
+                        <div class="services" style="background-image: url('assets/img/f2.jpg');">
                         <ul>
                           <li data-toggle="tooltip" data-placement="bottom" title="site vitrine"> Logiciel de gestion et sur mesure </li>
                           <li data-toggle="tooltip" data-placement="bottom" title="site sur mesure"> Application mobile et iOs </li>
-\                       </ul>
+                        </ul>
+                        </div>
                       </div>
            
           </div>
@@ -297,7 +328,7 @@
           link.classList.remove("active-link");
         });
 
-\        element.classList.add("active-link");
+       element.classList.add("active-link");
 
         const tabId = element.getAttribute("data-tab");
 
@@ -305,7 +336,7 @@
           content.classList.remove("active");
         });
 
-\        document.getElementById(tabId).classList.add("active");
+      document.getElementById(tabId).classList.add("active");
       });
     });
   </script>
