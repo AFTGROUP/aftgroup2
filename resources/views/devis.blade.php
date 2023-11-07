@@ -35,7 +35,7 @@
                                 <!-- Item -->
                                 <div class="swiper-slide ">
                                     <span>
-                                        <h2 class="display-2 from-start text-start">Voulez-vous <br> un devis ?</h2>
+                                        <h2 class="display-2 from-start text-start text-devis">Voulez-vous <br> un devis ?</h2>
                                     </span>
                                     <span>
                                         <img style="float: rigth;" src="{{ asset('assets/img/cercle.png') }}"
@@ -43,7 +43,7 @@
 
                                     </span>
                                     <div class="scale-up delay-1">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg">Contactez nous</a>
+                                        <a href="#" class="btn btn-primary shadow-primary btn-lg contact">Contactez nous</a>
                                     </div>
 
                                 </div>
@@ -64,6 +64,10 @@
         </div>
 
     </section>
+
+    <div id="etoile_banniere">
+
+    </div>
 
     <section class="container" id="devis">
         <div class=" rounded-3 py-5 px-3 px-sm-4 px-lg-0">

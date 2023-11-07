@@ -1,3 +1,71 @@
+.text_devis {
+    /* Voulez-vous un devis ? */
+
+    position: absolute;
+    width: 544px;
+    height: 192px;
+    left: 240px;
+    top: 202px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+
+
+}
+
+.contact {
+    /* Group 162555 */
+
+    position: absolute;
+    width: 157px;
+    height: 44px;
+    left: 240px;
+    top: 464px;
+
+
+
+    /* BG */
+
+    position: absolute;
+    left: 16.67%;
+    right: 72.43%;
+    top: 24.88%;
+    bottom: 72.76%;
+
+    background: #3461AB;
+    border: 2px solid #3461AB;
+    backdrop-filter: blur(1px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+
+
+    /* Get Beta Access */
+
+    position: absolute;
+    height: 24px;
+    left: 17.22%;
+    right: 72.99%;
+    top: calc(50% - 24px/2 - 446.5px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.500211px;
+
+    color: #FFFFFF;
+
+
+}
+
 #cadre1 {
     position: relative;
     width: 50px;
@@ -5,7 +73,7 @@
     left: 0px;
     top: 0px;
     background-color: #3461AB;
- 
+
 }
 
 
@@ -205,4 +273,45 @@
     color: #1966B3;
 
 
+}
+
+
+#etoile_banniere {
+    /* Group 162528 */
+
+    position: absolute;
+    width: 104.66px;
+    height: 120.07px;
+    left: -39px;
+    top: 610px;
+
+
+}
+
+
+#polygone1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -39px;
+    top: 645.01px;
+
+    border: 3px solid #3461AB;
+    transform: rotate(-28.66deg);
+}
+
+#polygone2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -33.4px;
+    top: 666.01px;
+
+    border: 1px solid #3461AB;
+    transform: rotate(-28.66deg);
 }
