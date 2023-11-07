@@ -23,19 +23,78 @@
             background: #3461AB;
         }
 
+        #cadre3 {}
+
         @media screen and (min-width: 768px) {
-        #get_devis {
-            margin-left: 20%;
+            #get_devis {
+                margin-left: 20%;
+            }
+
         }
 
-    }
-
         @media screen and (max-width: 767px) {
-            #get_devis{
+            #get_devis {
                 margin-left: 10%;
             }
         }
 
+        .input_cadre {
+            /* Group 53 */
+
+            position: absolute;
+            width: 400px;
+            height: 50px;
+            left: 519px;
+            top: 1083px;
+
+
+
+            /* Group 48 */
+
+            position: absolute;
+            width: 36px;
+            height: 23px;
+            left: calc(50% - 36px/2 - 143px);
+            top: 1097px;
+
+
+
+            /* Nom */
+
+            position: absolute;
+            width: 36px;
+            height: 23px;
+            left: 559px;
+            top: 1097px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            /* identical to box height */
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #6C757D;
+
+
+
+            /* Rectangle 38 */
+
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 400px;
+            height: 50px;
+            left: calc(50% - 400px/2 - 1px);
+            top: 1083px;
+
+            border: 2px solid #3461AB;
+            border-radius: 5px;
+
+        }
     </style>
 @endsection
 
@@ -108,13 +167,13 @@
         <div class=" rounded-3 py-5 px-3 px-sm-4 px-lg-0">
             <div class="row justify-content-center align-items-center pt-1 pb-2 py-lg-4">
                 <div class="col-xl-7 col-lg-8 col-md-6 offset-lg-1 mb-4 pb-3 mb-md-0 pb-md-0 ">
-                    <div class="row justify-content-center align-items-center ">
+                    <div class="row justify-content-center align-items-center mb-5 ">
                         <div class="d-flex ">
                             <span>
                                 <div id="cadre1" class="mr-3"></div>
                             </span>
                             <span class="" id="get_devis">
-                                <h2 class="h1 text-center" >Demandez un devis</h2>
+                                <h2 class="h1 text-center">Demandez un devis</h2>
                             </span>
                         </div>
                     </div>
@@ -126,17 +185,43 @@
                         désirez.</p>
 
 
-                     <div class="row justify-content-center align-items-center mb-4 ">
+                    <div class="row justify-content-center align-items-center mb-4 ">
                         <div class="d-flex ">
                             <span>
-                                <h3 class="mb-lg-4">Madame </h3>
+                                <h3 class="mb-lg-4">Madame </h3> <span>
+                                    <div id="cadre3"> </div>
+                                </span>
                             </span>
-                            <span >
-                                <h3 class="mb-lg-4">Monsieur </h3>
+                            <span>
+                                <h3 class="mb-lg-4">Monsieur </h3> <span>
+                                    <div id="cadre3"> </div>
+                                </span>
                             </span>
                         </div>
                     </div>
 
+                    <div class="row justify-content-center align-items-center mb-4 ">
+                        <div class="input_cadre">
+                            Nom
+                        </div>
+
+
+
+                    </div>
+                    
+
+
+
+
+                    <div class="mb-5">
+
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
 
                 </div>
 
