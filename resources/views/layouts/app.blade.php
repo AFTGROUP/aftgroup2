@@ -31,6 +31,7 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/devis.css')}}">
 
     <!-- Page loading styles -->
     <style>
@@ -144,7 +145,7 @@
       })(window,document,'script','dataLayer','GTM-WKV3GT5');
     </script>
 
-    @yield('devis')
+
 
   </head>
 

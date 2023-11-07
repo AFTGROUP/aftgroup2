@@ -1,103 +1,5 @@
 @extends('layouts.app')
 
-@section('devis')
-    <style>
-        #cadre1 {
-            position: relative;
-            width: 50px;
-            height: 49px;
-            left: 0px;
-            top: 0px;
-            background-color: #3461AB;
-            /* Couleur de fond */
-        }
-
-
-        #cadre2 {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            left: 359px;
-            top: 2173px;
-
-            background: #3461AB;
-        }
-
-        #cadre3 {}
-
-        @media screen and (min-width: 768px) {
-            #get_devis {
-                margin-left: 20%;
-            }
-
-        }
-
-        @media screen and (max-width: 767px) {
-            #get_devis {
-                margin-left: 10%;
-            }
-        }
-
-        .input_cadre {
-            /* Group 53 */
-
-            position: absolute;
-            width: 400px;
-            height: 50px;
-            left: 519px;
-            top: 1083px;
-
-
-
-            /* Group 48 */
-
-            position: absolute;
-            width: 36px;
-            height: 23px;
-            left: calc(50% - 36px/2 - 143px);
-            top: 1097px;
-
-
-
-            /* Nom */
-
-            position: absolute;
-            width: 36px;
-            height: 23px;
-            left: 559px;
-            top: 1097px;
-
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 15px;
-            line-height: 22px;
-            /* identical to box height */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #6C757D;
-
-
-
-            /* Rectangle 38 */
-
-            box-sizing: border-box;
-
-            position: absolute;
-            width: 400px;
-            height: 50px;
-            left: calc(50% - 400px/2 - 1px);
-            top: 1083px;
-
-            border: 2px solid #3461AB;
-            border-radius: 5px;
-
-        }
-    </style>
-@endsection
-
 @section('content')
     <section class="jarallax dark-mode bg-dark py-xxl-5" data-jarallax data-speed="0.4" id="accueil">
         <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent"></span>
@@ -173,13 +75,13 @@
                                 <div id="cadre1" class="mr-3"></div>
                             </span>
                             <span class="" id="get_devis">
-                                <h2 class="h1 text-center">Demandez un devis</h2>
+                                <h2 class="h1 text-center ">Demandez un devis</h2>
                             </span>
                         </div>
                     </div>
 
 
-                    <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center">Parlez-nous davantage de votre projet et de vos
+                    <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center afterGetDevis">Parlez-nous davantage de votre projet et de vos
                         besoins en répondant en
                         quelques secondes à un petit questionnaire en fonction de ce que vous
                         désirez.</p>
@@ -188,13 +90,13 @@
                     <div class="row justify-content-center align-items-center mb-4 ">
                         <div class="d-flex ">
                             <span>
-                                <h3 class="mb-lg-4">Madame </h3> <span>
-                                    <div id="cadre3"> </div>
+                                <h3 class="mb-lg-4" id="madame">Madame </h3> <span>
+                                    <div class="checkbox"> </div>
                                 </span>
                             </span>
                             <span>
-                                <h3 class="mb-lg-4">Monsieur </h3> <span>
-                                    <div id="cadre3"> </div>
+                                <h3 class="mb-lg-4" id="monsieur">Monsieur </h3> <span>
+                                    <div class="checkbox"> </div>
                                 </span>
                             </span>
                         </div>
@@ -208,7 +110,7 @@
 
 
                     </div>
-                    
+
 
 
 
