@@ -62,6 +62,87 @@
         
       </section>
 
+      <section class="container py-5 my-2 my-md-4 my-lg-5" id="why">
+        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Large gamme de services</h2>
+        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">Choisir AFT GROUP, c'est opter pour une expertise de pointe dans le domaine des technologies informatiques, des TIC et du numérique. Notre engagement envers l'innovation, la qualité et la satisfaction client est au cœur de tout ce que nous faisons. Nous sommes là pour créer des solutions sur mesure qui répondent à vos besoins spécifiques, pour vous aider à prospérer dans un monde numérique en constante évolution. Avec AFT GROUP, vous avez un partenaire de confiance pour chaque étape de votre voyage numérique.</p>
+        
+      </section>
+
+      <section class="container py-5 my-2 my-md-4 my-lg-5" id="why">
+        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Services personnalisés</h2>
+        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">Choisir AFT GROUP, c'est opter pour une expertise de pointe dans le domaine des technologies informatiques, des TIC et du numérique. Notre engagement envers l'innovation, la qualité et la satisfaction client est au cœur de tout ce que nous faisons. Nous sommes là pour créer des solutions sur mesure qui répondent à vos besoins spécifiques, pour vous aider à prospérer dans un monde numérique en constante évolution. Avec AFT GROUP, vous avez un partenaire de confiance pour chaque étape de votre voyage numérique.</p>
+        
+        <div class="row pb-lg-2">
+          <div class="col-md-4">
+          <div class="card text-white bg-dark">
+          <div class="card-header border-light">Header</div>
+          <div class="card-body">
+            <center><h5 class="card-title text-white">Solutions Web & Digitales</h5></center>
+            <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <center> <button type="button" class="btn btn-outline-light">En savoir plus</button></center>
+
+          </div>
+         
+        </div>
+          </div>
+
+          <div class="col-md-4">
+          <div class="card text-white bg-dark">
+          <div class="card-header border-light">Header</div>
+          <div class="card-body">
+            <center><h5 class="card-title text-white">Services informatiques</h5></center>
+            <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <center> <button type="button" class="btn btn-outline-light">En savoir plus</button></center>
+
+          </div>
+         
+        </div>
+          </div>
+
+          <div class="col-md-4">
+          <div class="card text-white bg-dark">
+          <div class="card-header border-light">Header</div>
+          <div class="card-body">
+            <center><h5 class="card-title text-white">Innovations digitales</h5></center>
+            <p class="card-text fs-sm">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <center> <button type="button" class="btn btn-outline-light">En savoir plus</button></center>
+
+          </div>
+         
+        </div>
+          </div>
+
+        </div>
+
+        
+      </section>
+
+      <section class="container py-5 my-2 my-md-4 my-lg-5" id="why">
+        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Qui sommes nous ?</h2>
+        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">Choisir AFT GROUP, c'est opter pour une expertise de pointe dans le domaine des technologies informatiques, des TIC et du numérique. Notre engagement envers l'innovation, la qualité et la satisfaction client est au cœur de tout ce que nous faisons. Nous sommes là pour créer des solutions sur mesure qui répondent à vos besoins spécifiques, pour vous aider à prospérer dans un monde numérique en constante évolution. Avec AFT GROUP, vous avez un partenaire de confiance pour chaque étape de votre voyage numérique.</p>
+        
+      </section>
+
+      <section class="container py-5 my-2 my-md-4 my-lg-5" id="why">
+        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Nos Formations</h2>
+        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">Choisir AFT GROUP, c'est opter pour une expertise de pointe dans le domaine des technologies informatiques, des TIC et du numérique. Notre engagement envers l'innovation, la qualité et la satisfaction client est au cœur de tout ce que nous faisons. Nous sommes là pour créer des solutions sur mesure qui répondent à vos besoins spécifiques, pour vous aider à prospérer dans un monde numérique en constante évolution. Avec AFT GROUP, vous avez un partenaire de confiance pour chaque étape de votre voyage numérique.</p>
+        
+      </section>
+
+      <section class="container py-5 my-2 my-md-4 my-lg-5" id="why">
+        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Nos projets / produits</h2>
+        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">Choisir AFT GROUP, c'est opter pour une expertise de pointe dans le domaine des technologies informatiques, des TIC et du numérique. Notre engagement envers l'innovation, la qualité et la satisfaction client est au cœur de tout ce que nous faisons. Nous sommes là pour créer des solutions sur mesure qui répondent à vos besoins spécifiques, pour vous aider à prospérer dans un monde numérique en constante évolution. Avec AFT GROUP, vous avez un partenaire de confiance pour chaque étape de votre voyage numérique.</p>
+        
+      </section>
+
+      <section class="container py-5 my-2 my-md-4 my-lg-5" id="why">
+        <h2 class="h1 text-center pt-1 pt-xl-2 mb-4">Pourquoi nous choisir ?</h2>
+        <p class="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">Choisir AFT GROUP, c'est opter pour une expertise de pointe dans le domaine des technologies informatiques, des TIC et du numérique. Notre engagement envers l'innovation, la qualité et la satisfaction client est au cœur de tout ce que nous faisons. Nous sommes là pour créer des solutions sur mesure qui répondent à vos besoins spécifiques, pour vous aider à prospérer dans un monde numérique en constante évolution. Avec AFT GROUP, vous avez un partenaire de confiance pour chaque étape de votre voyage numérique.</p>
+        
+      </section>
+
+      
+
 
 
 
@@ -71,7 +152,7 @@
         <div class="bg-secondary rounded-3 py-5 px-3 px-sm-4 px-lg-0">
           <div class="row align-items-center pt-1 pb-2 py-lg-4">
             <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 mb-4 pb-3 mb-md-0 pb-md-0">
-              <h2 class="h1 mb-lg-4">Obtenez un devis</h2>
+              <h2 class="h1 mb-lg-4">Contactez nous </h2>
               <p class="pb-2 pb-md-4 pb-lg-5">Parlez-nous davantage de votre projet et de vos besoins en répondant en
                 quelques secondes à un petit questionnaire en fonction de ce que vous désirez.</p>
               <h3 class="mb-lg-4">Contact Info</h3>
