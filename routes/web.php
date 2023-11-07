@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DevisController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,16 +27,13 @@ Route::get('/formations', function () {
     return view('formations');
 });
 
-Route::get('/devis', function () {
-    return view('devis');
-});
+
 
 Route::get('/apropos', function () {
     return view('apropos');
 });
 
-Route::get('/devis', 'DevisController@create')->name('devis.create');
-Route::post('/devis', 'DevisController@store')->name('devis.store');
+Route::get('/devis', [DevisController::class, 'index'])->name('devis');
 
 
 Auth::routes();
