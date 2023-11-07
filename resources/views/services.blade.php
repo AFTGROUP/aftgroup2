@@ -234,10 +234,10 @@
              <div class="col-lg-6 vector">
                 <div class="services" style="background-image: url('assets/img/f3.jpg');">
                    <ul>
-                      <li data-toggle="tooltip" data-placement="bottom" title="Logo"> Logo </li>
+                      <li data-toggle="tooltip" data-placement="bottom" title="Logo">  Logo </li>
                       <li data-toggle="tooltip" data-placement="bottom" title="Charte graphique"> Charte graphique </li>
                       <li data-toggle="tooltip" data-placement="bottom" title="Signature email"> Signature email </li>
-                      <li data-toggle="tooltip" data-placement="bottom" title="Logo button"> Spport de communiation </li>
+                      <li data-toggle="tooltip" data-placement="bottom" title="Logo button"> Spport de communiation </li>                            ++
                       <li data-toggle="tooltip" data-placement="bottom" title="Logo button"> Mise en page de document </li>
                    </ul>
                 </div>
@@ -334,6 +334,7 @@
           </div>
        </div>
        <!-- Services two -->
+<<<<<<< HEAD
        <div class="tab-content active" id="tab2">
         <div class="row" style="margin-bottom: 100px">
         <div class="col-md-6">
@@ -490,12 +491,53 @@
                     
                   </div>
                 </div>
+=======
+       <div class="tab-content" id="tab2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 2cbd8e8 (pages services)
 
        </div>
        <!-- Service three -->
        <div class="tab-content" id="tab3">
+
+
+
+
+
+
+
+
+
+
+
+
           Content for Innovation digitales
-       </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        </div>
     </div>
  </div>
 
