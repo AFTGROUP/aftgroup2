@@ -94,16 +94,21 @@
                         quelques secondes à un petit questionnaire en fonction de ce que vous
                         désirez.</p>
 
-                    <form method="GET" action="/devis-question">
+                    <form action="{{route('devis_question')}}" method="post">
+                        @csrf
                         <div class="row justify-content-center align-items-center ">
                             <div class="d-flex ">
                                 <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="madame" for="inlineCheckbox2">Madame</label>
-                                    <input class="form-check-input checkbox1" type="checkbox" id="inlineCheckbox2" value="option2">
+                                    <label class="form-check-label " id="madame" name="genre"
+                                        for="inlineCheckbox2">Madame</label>
+                                    <input class="form-check-input checkbox1" type="checkbox" id="inlineCheckbox2"
+                                        value="option2">
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="monsieur" for="inlineCheckbox1">Monsieur</label>
-                                    <input class="form-check-input checkbox2" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label " id="monsieur" name="genre"
+                                        for="inlineCheckbox1">Monsieur</label>
+                                    <input class="form-check-input checkbox2" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
                                 </div>
 
                             </div>
@@ -112,17 +117,17 @@
                         <div class="row justify-content-center align-items-center mb-4 ">
 
                             <div class="mb-3">
-                                <input type="email" class="form-control " id="" placeholder="Nom"
+                                <input type="text" class="form-control " name="nom" id="" placeholder="Nom"
                                     aria-describedby="emailHelp">
                             </div>
 
                             <div class="mb-3 ">
-                                <input type="email" class="form-control " id="" placeholder="Prénom"
-                                    aria-describedby="emailHelp">
+                                <input type="text" class="form-control " name="prenom" id=""
+                                    placeholder="Prénom" aria-describedby="emailHelp">
                             </div>
 
                             <div class="mb-3">
-                                <input type="email" class="form-control" id="" placeholder="Email"
+                                <input type="email" class="form-control" name="email" id="" placeholder="Email"
                                     aria-describedby="emailHelp">
                             </div>
 

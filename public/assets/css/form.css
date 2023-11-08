@@ -126,6 +126,17 @@
     #contactt{
         margin-left: 0;
     }
+    #cardrer {
+        margin-top: -60px;
+        transform: rotate(11deg);
+    }
+    .blockchain {
+        position: absolute;
+        right: 37px;
+        width: 380px;
+        border-radius: 30px;
+        height: 400px;
+    }
 }
 
 @media (max-width: 1199.98px) { ... }
