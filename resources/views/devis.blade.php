@@ -35,10 +35,10 @@
                                 <!-- Item -->
                                 <div class="swiper-slide ">
                                     <span>
-                                        <h2 class="display-2 from-start text-start">Voulez-vous <br> un devis ?</h2>
+                                        <h2 class="display-3 from-start text-start">Voulez-vous <br> un devis ?</h2>
                                     </span>
-                                    <span>
-                                        <img style="float: rigth;" src="{{ asset('assets/img/cercle.png') }}"
+                                    <span class="cercle">
+                                        <img  src="{{ asset('assets/img/cercle.png') }}"
                                             alt="">
 
                                     </span>

@@ -118,7 +118,7 @@
     width: 469px;
     height: 56px;
     left: 563px;
-    top: 763px;
+    top: 730px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -131,6 +131,8 @@
 
 
 }
+
+/* Format pc */
 
 @media screen and (min-width: 768px) {
     #get_devis {
@@ -147,6 +149,8 @@
     }
 
 }
+
+/* Format téléphone */
 
 @media screen and (max-width: 767px) {
     #get_devis {
@@ -272,7 +276,7 @@
     top: 666.01px;
 
     border: 1px solid #3461AB;
-    transform: rotate(-28.66deg);
+    transform: rotate(-20.66deg);
 }
 
 
@@ -441,5 +445,19 @@
     top: 810px;
 
     background: #3461AB;
+
+}
+
+
+.cercle {
+    /* Ellipse 1 */
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 700px;
+    top: 51px;
+
+    /* background: #E20044; */
 
 }
