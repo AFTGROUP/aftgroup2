@@ -110,7 +110,7 @@
 <section class="container py-5 my-2 my-md-4 my-lg-5 " id="why">
     <div class="mb-5">
       <h2 class="text-center fs-3">Vous avez besoin d’autres formations ?</h2>
-      <a class="btn btn-outline-primary btn-sm offset-md-5 mb-5 fs-5" style="margin-left: 43%;" href="#" role="button">contacter-nous </a>
+      <a class="btn btn-outline-primary btn-sm offset-md-5 mb-5 fs-5" style="margin-left: 43%;" href="contactt" role="button">contacter-nous </a>
     </div>
   </section>
 @endsection
