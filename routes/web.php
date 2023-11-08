@@ -35,6 +35,11 @@ Route::get('/apropos', function () {
 
 Route::get('/devis', [DevisController::class, 'index'])->name('devis');
 
+Route::get('/prixLogicielApplication', function() {
+
+    return view('prixLogicielApplication');
+
+});
 
 Auth::routes();
 

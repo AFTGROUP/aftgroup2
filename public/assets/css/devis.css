@@ -87,14 +87,18 @@
     background: #3461AB;
 }
 
-#checkbox {
+.checkbox {
 
+
+    /* check */
 
     position: absolute;
     width: 24px;
     height: 24px;
     left: 672px;
     top: 1022px;
+
+    /* Vector */
 
     position: absolute;
     left: 16.67%;
@@ -103,6 +107,7 @@
     bottom: 29.17%;
 
     border: 2px solid #3461AB;
+
 
 }
 
@@ -169,48 +174,6 @@
 
 
 
-
-    position: absolute;
-    width: 36px;
-    height: 23px;
-    left: calc(50% - 36px/2 - 143px);
-    top: 1097px;
-
-
-
-
-    position: absolute;
-    width: 36px;
-    height: 23px;
-    left: 559px;
-    top: 1097px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 22px;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #6C757D;
-
-
-
-
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    left: calc(50% - 400px/2 - 1px);
-    top: 1083px;
-
-    border: 2px solid #3461AB;
-    border-radius: 5px;
-
 }
 
 .afterGetDevis {
@@ -275,8 +238,17 @@
 
 }
 
+.container-polygone {
 
-#etoile_banniere {
+    position: relative;
+    width: 200px;
+    /* Ajustez la largeur au besoin */
+    height: 800px;
+    /* Ajustez la hauteur au besoin */
+
+}
+
+.polygones {
     /* Group 162528 */
 
     position: absolute;
@@ -288,8 +260,25 @@
 
 }
 
+#polygone2 {
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -33.4px;
+    top: 666.01px;
+
+    border: 1px solid #3461AB;
+    transform: rotate(-28.66deg);
+}
+
 
 #polygone1 {
+
+
     box-sizing: border-box;
 
     position: absolute;
@@ -302,16 +291,53 @@
     transform: rotate(-28.66deg);
 }
 
-#polygone2 {
+.quiz_header {
+   
 
+    position: absolute;
+    width: 1440px;
+    height: 304px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url(concept-controle-qualite-standard-m_23-2150041864.jpg);
+
+}
+
+
+.logiciel_polygones {
+    position: absolute;
+    width: 104.66px;
+    height: 120.07px;
+    left: -23px;
+    top: 304px;
+
+
+}
+
+.logiciel_polygone1 {
     box-sizing: border-box;
 
     position: absolute;
     width: 73px;
     height: 73px;
-    left: -33.4px;
-    top: 666.01px;
+    left: -23px;
+    top: 339.01px;
+
+    border: 3px solid #3461AB;
+    transform: rotate(-28.66deg);
+}
+
+.logiciel_polygone2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -17.41px;
+    top: 360.01px;
 
     border: 1px solid #3461AB;
     transform: rotate(-28.66deg);
+
 }

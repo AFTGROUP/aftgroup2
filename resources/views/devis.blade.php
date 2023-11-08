@@ -35,7 +35,7 @@
                                 <!-- Item -->
                                 <div class="swiper-slide ">
                                     <span>
-                                        <h2 class="display-2 from-start text-start text-devis">Voulez-vous <br> un devis ?</h2>
+                                        <h2 class="display-2 from-start text-start">Voulez-vous <br> un devis ?</h2>
                                     </span>
                                     <span>
                                         <img style="float: rigth;" src="{{ asset('assets/img/cercle.png') }}"
@@ -43,7 +43,7 @@
 
                                     </span>
                                     <div class="scale-up delay-1">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg contact">Contactez nous</a>
+                                        <a href="#" class="btn btn-primary shadow-primary btn-lg">Contactez nous</a>
                                     </div>
 
                                 </div>
@@ -65,9 +65,14 @@
 
     </section>
 
-    <div id="etoile_banniere">
+    <div >
+        <div class="polygones">
 
+        </div>
+        <div id="polygone2"></div>
+        <div id="polygone1"></div>
     </div>
+
 
     <section class="container" id="devis">
         <div class=" rounded-3 py-5 px-3 px-sm-4 px-lg-0">
@@ -85,53 +90,69 @@
                     </div>
 
 
-                    <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center afterGetDevis">Parlez-nous davantage de votre projet et de vos
-                        besoins en répondant en
-                        quelques secondes à un petit questionnaire en fonction de ce que vous
-                        désirez.</p>
+                <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center">Parlez-nous davantage de votre projet et de vos
+                    besoins en répondant en
+                    quelques secondes à un petit questionnaire en fonction de ce que vous
+                    désirez.</p>
 
 
-                    <div class="row justify-content-center align-items-center mb-4 ">
-                        <div class="d-flex ">
-                            <span>
-                                <h3 class="mb-lg-4" id="madame">Madame </h3> <span>
-                                    <div class="checkbox"> </div>
-                                </span>
-                            </span>
-                            <span>
-                                <h3 class="mb-lg-4" id="monsieur">Monsieur </h3> <span>
-                                    <div class="checkbox"> </div>
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-center align-items-center mb-4 ">
-                        <div class="input_cadre">
-                            Nom
-                        </div>
-
-
+                <div class="row justify-content-center align-items-center mb-4 ">
+                    <div class="d-flex ">
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineCheckbox2">Madame</label>
+                            <input class="form-check-input " type="checkbox" id="inlineCheckbox2" value="option2">
+                          </div>
+                        <div class="form-check form-check-inline">
+                            <label class="form-check-label" for="inlineCheckbox1">Monsieur</label>
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          </div>
 
                     </div>
-
-
-
-
-
-                    <div class="mb-5">
-
-                    </div>
-
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
                 </div>
 
-            </div>
+                <div class="row justify-content-center align-items-center mb-4 ">
+
+                    <div class="mb-3">
+                    <input type="email" class="form-control" id="" placeholder="Nom" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="" placeholder="Prénom" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="" placeholder="Email" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3 form-check px-4">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Politique d&apos;utilisation et de confidentialité</label>
+                      </div>
+                      <div class="mb-3">
+
+                      <button type="submit" class="btn btn-primary w-50">Demande de devis</button>
+                      </div>
+
+
+
+
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+
+
+
+
+
 
 
         </div>
