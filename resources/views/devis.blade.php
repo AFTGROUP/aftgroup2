@@ -12,7 +12,6 @@
                             <div id="cadre1" class="mr-3"></div>
                         </span>
                         <span class="" id="get_devis">
-                            <h2 class="h1 text-center">Demandez un devis</h2>
                         </span>
                     </div>
                 </div>
@@ -23,7 +22,7 @@
                     quelques secondes à un petit questionnaire en fonction de ce que vous
                     désirez.</p>
 
-
+                <form method="get" action="/devis-question">
                 <div class="row justify-content-center align-items-center mb-4 ">
                     <div class="d-flex ">
                         <div class="form-check form-check-inline">
@@ -65,23 +64,9 @@
 
 
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
 
-                <br>
-                <br>
-                <br>
-                <br>
-
-
-
-
-
-
-
-
+<br><br>
+              
 
         </div>
     </section>

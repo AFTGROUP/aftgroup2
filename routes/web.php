@@ -35,6 +35,7 @@ Route::get('/apropos', function () {
 
 Route::get('/devis', [DevisController::class, 'index'])->name('devis');
 
+Route::get('/devis-question', [DevisController::class, 'question0'])->name('question0');
 
 Auth::routes();
 
