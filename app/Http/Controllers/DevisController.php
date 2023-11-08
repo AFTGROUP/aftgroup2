@@ -16,4 +16,13 @@ class DevisController extends Controller
 
         return view('devis-question0');
     }
+
+    public function choice(Request $request){
+
+        dd($request);
+    }
+
+    public function userData(){
+
+    }
 }

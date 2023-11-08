@@ -99,16 +99,16 @@
                         <div class="row justify-content-center align-items-center ">
                             <div class="d-flex ">
                                 <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="madame" name="genre"
+                                    <label class="form-check-label " id="madame"
                                         for="inlineCheckbox2">Madame</label>
-                                    <input class="form-check-input checkbox1" type="checkbox" id="inlineCheckbox2"
-                                        value="option2">
+                                    <input class="form-check-input checkbox1"  name="genre" type="checkbox" id="inlineCheckbox2"
+                                        value="madame">
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="monsieur" name="genre"
+                                    <label class="form-check-label " id="monsieur"
                                         for="inlineCheckbox1">Monsieur</label>
-                                    <input class="form-check-input checkbox2" type="checkbox" id="inlineCheckbox1"
-                                        value="option1">
+                                    <input class="form-check-input checkbox2"  name="genre" type="checkbox" id="inlineCheckbox1"
+                                        value="monsieur">
                                 </div>
 
                             </div>

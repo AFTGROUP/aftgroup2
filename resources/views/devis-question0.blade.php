@@ -123,73 +123,38 @@
         }
     </style>
 
-    <div class="container box-question p-3">
+    <div class="container box-question p-5">
         <h3>QUESTION 0</h3>
 
-        <div class="form-group">
+        <div class="form-group" action="{{ route('choice') }}" method=>
             <label><b>Quel type de site internet souhaitez-vous ?</b></label>
             <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioOptions" id="optionA" value="optionA">
+                <input class="custom-control-input" type="radio" name="choice" id="optionA" value="site_vitrine">
                 <label class="custom-control-label" for="optionA">Site vitrine</label>
             </div>
             <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioOptions" id="optionB" value="optionB">
+                <input class="custom-control-input" type="radio" name="choice" id="optionB" value="e-commerce">
                 <label class="custom-control-label" for="optionB">Site e-commerce</label>
             </div>
             <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioOptions" id="optionC" value="optionC">
+                <input class="custom-control-input" type="radio" name="choice" id="optionC" value="logiciel">
                 <label class="custom-control-label" for="optionC">Logiciel / Mobile</label>
             </div>
         </div>
         <br><br>
-        <div class="mb-3 d-flex justify-content-end">
+        <div class="mb-5 d-flex justify-content-end">
             <button type="submit" class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
         </div>
     </div>
     </div>
-    <div class="container box-question p-3">
-        <h3>QUESTION 1/11</h3>
-
-        <div class="form-group">
-            <label><b>Quel type de site vitrine souhaitez-vous ?</b></label>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioOptions" id="optionA" value="optionA">
-                <label class="custom-control-label" for="optionA">Entièrement sur mesure</label>
-            </div>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioOptions" id="optionB" value="optionB">
-                <label class="custom-control-label" for="optionB">Templates</label>
-            </div>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="radioOptions" id="optionC" value="optionC">
-                <label class="custom-control-label" for="optionC">Personnalisation d&apos;un templates</label>
-            </div>
-        </div>
-        <br><br>
-        <div class="d-flex justify-content-between">
-            <div class="mb-3">
-                <button type="submit" class="btn btn-outline-primary p-2 ">Retour</button>
-            </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary p-2 ">Suivant</button>
-            </div>
-        </div>
-
-
-
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-
-    </div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
     </section>
 @endsection
