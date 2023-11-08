@@ -35,23 +35,19 @@
                                 <!-- Item -->
                                 <div class="swiper-slide ">
                                     <span>
-                                        <h2 class=" from-start text-start" id="vouloir_devis">Voulez-vous <br> un devis ?</h2>
+                                        <h2 class=" from-start text-start" id="vouloir_devis">Voulez-vous <br> un devis ?
+                                        </h2>
                                     </span>
-                                    <span >
-                                        <img class="cercle" src="{{ asset('assets/img/cercle.png') }}"
-                                            alt="">
+                                    <span>
+                                        <img class="cercle" src="{{ asset('assets/img/cercle.png') }}" alt="">
 
                                     </span>
                                     <div class="scale-up">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg contact-header">Contactez nous</a>
+                                        <a href="#"
+                                            class="btn btn-primary shadow-primary btn-lg contact-header">Contactez nous</a>
                                     </div>
 
                                 </div>
-
-                                <!-- Item -->
-
-
-                                <!-- Item -->
 
                             </div>
 
@@ -81,10 +77,10 @@
                     <div class="row justify-content-center align-items-center mb-5 ">
                         <div class="d-flex ">
                             <span>
-                              <div class="cadres">
-                                <div id="cadre1" class="mr-3"></div>
-                                <div id="cadre2"></div>
-                              </div>
+                                <div class="cadres">
+                                    <div id="cadre1" class="mr-3"></div>
+                                    <div id="cadre2"></div>
+                                </div>
                             </span>
                             <span class="" id="get_devis">
                                 <p class="h1 text-center ">Demandez un devis</p>
@@ -93,57 +89,61 @@
                     </div>
 
 
-                <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center">Parlez-nous davantage de votre projet et de vos
-                    besoins en répondant en
-                    quelques secondes à un petit questionnaire en fonction de ce que vous
-                    désirez.</p>
+                    <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center">Parlez-nous davantage de votre projet et de vos
+                        besoins en répondant en
+                        quelques secondes à un petit questionnaire en fonction de ce que vous
+                        désirez.</p>
 
-                <form method="GET" action="/devis-question">
-                <div class="row justify-content-center align-items-center mb-4 ">
-                    <div class="d-flex ">
-                        <div class="form-check form-check-inline">
-                            <label class="form-check-label" for="inlineCheckbox2">Madame</label>
-                            <input class="form-check-input " type="checkbox" id="inlineCheckbox2" value="option2">
-                          </div>
-                        <div class="form-check form-check-inline">
-                            <label class="form-check-label" for="inlineCheckbox1">Monsieur</label>
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                          </div>
+                    <form method="GET" action="/devis-question">
+                        <div class="row justify-content-center align-items-center ">
+                            <div class="d-flex ">
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label " id="madame" for="inlineCheckbox2">Madame</label>
+                                    <input class="form-check-input checkbox1" type="checkbox" id="inlineCheckbox2" value="option2">
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label " id="monsieur" for="inlineCheckbox1">Monsieur</label>
+                                    <input class="form-check-input checkbox2" type="checkbox" id="inlineCheckbox1" value="option1">
+                                </div>
 
-                    </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center align-items-center mb-4 ">
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control " id="" placeholder="Nom"
+                                    aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="mb-3 ">
+                                <input type="email" class="form-control " id="" placeholder="Prénom"
+                                    aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="" placeholder="Email"
+                                    aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="mb-3 form-check px-4">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Politique d&apos;utilisation et de
+                                    confidentialité</label>
+                            </div>
+                            <div class="mb-3">
+
+                                <button type="submit" class="btn btn-primary w-50">Demande de devis</button>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <br><br>
+
+
                 </div>
-
-                <div class="row justify-content-center align-items-center mb-4 ">
-
-                    <div class="mb-3">
-                    <input type="email" class="form-control" id="" placeholder="Nom" aria-describedby="emailHelp">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="" placeholder="Prénom" aria-describedby="emailHelp">
-                    </div>
-
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="" placeholder="Email" aria-describedby="emailHelp">
-                    </div>
-
-                    <div class="mb-3 form-check px-4">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Politique d&apos;utilisation et de confidentialité</label>
-                      </div>
-                      <div class="mb-3">
-
-                      <button type="submit" class="btn btn-primary w-50">Demande de devis</button>
-                      </div>
-
-
-
-
-                </div>
-
-<br><br>
-
-
-        </div>
     </section>
 @endsection

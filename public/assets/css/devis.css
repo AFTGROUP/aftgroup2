@@ -47,31 +47,6 @@
     background: #3461AB;
 }
 
-.checkbox {
-
-
-    /* check */
-
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 672px;
-    top: 1022px;
-
-    /* Vector */
-
-    position: absolute;
-    left: 16.67%;
-    right: 16.67%;
-    top: 25%;
-    bottom: 29.17%;
-
-    border: 2px solid #3461AB;
-
-
-}
-
-
 
 /* Format pc */
 
@@ -120,6 +95,39 @@
 
         color: #FFFFFF;
 
+
+    }
+
+    .checkbox1 {
+
+        /* Rectangle 40 */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 668px;
+        top: 910px;
+
+        background: #FFFFFF;
+        border: 1px solid #6C757D;
+
+
+
+    }
+
+    .checkbox2 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 830px;
+        top: 910px;
+
+        background: #FFFFFF;
+        border: 1px solid #6C757D;
 
     }
 
@@ -187,7 +195,7 @@
     width: 68px;
     height: 23px;
     left: 734px;
-    top: 1022px;
+    top: 920px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -210,7 +218,7 @@
     width: 68px;
     height: 23px;
     left: 576px;
-    top: 1022px;
+    top: 920px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -421,4 +429,31 @@
 
     /* background: #E20044; */
 
+}
+
+
+.input_form {
+    /* Rectangle 38 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: calc(50% - 400px/2 - 1px);
+
+
+    border: 2px solid #3461AB;
+    border-radius: 5px;
+
+}
+
+.input_nom
+{
+    top: 980px;
+}
+
+
+.input_prenom{
+    top: 995px;
 }
