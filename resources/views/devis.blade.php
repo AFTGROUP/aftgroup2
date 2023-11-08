@@ -35,15 +35,15 @@
                                 <!-- Item -->
                                 <div class="swiper-slide ">
                                     <span>
-                                        <h2 class="display-3 from-start text-start">Voulez-vous <br> un devis ?</h2>
+                                        <h2 class=" from-start text-start" id="vouloir_devis">Voulez-vous <br> un devis ?</h2>
                                     </span>
-                                    <span class="cercle">
-                                        <img  src="{{ asset('assets/img/cercle.png') }}"
+                                    <span >
+                                        <img class="cercle" src="{{ asset('assets/img/cercle.png') }}"
                                             alt="">
 
                                     </span>
-                                    <div class="scale-up delay-1">
-                                        <a href="#" class="btn btn-primary shadow-primary btn-lg">Contactez nous</a>
+                                    <div class="scale-up">
+                                        <a href="#" class="btn btn-primary shadow-primary btn-lg contact-header">Contactez nous</a>
                                     </div>
 
                                 </div>
@@ -65,13 +65,13 @@
 
     </section>
 
-    <div >
+    {{--  <div >
         <div class="polygones">
-
+            <div id="polygone2"></div>
+            <div id="polygone1"></div>
         </div>
-        <div id="polygone2"></div>
-        <div id="polygone1"></div>
-    </div>
+
+    </div>  --}}
 
 
     <section class="container" id="devis">
@@ -81,10 +81,13 @@
                     <div class="row justify-content-center align-items-center mb-5 ">
                         <div class="d-flex ">
                             <span>
+                              <div class="cadres">
                                 <div id="cadre1" class="mr-3"></div>
+                                <div id="cadre2"></div>
+                              </div>
                             </span>
                             <span class="" id="get_devis">
-                                <h2 class="h1 text-center ">Demandez un devis</h2>
+                                <p class="h1 text-center ">Demandez un devis</p>
                             </span>
                         </div>
                     </div>

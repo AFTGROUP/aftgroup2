@@ -15,56 +15,16 @@
 
     color: #FFFFFF;
 
+}
+
+.contact-header {
+
+    margin-right: 100%;
+    margin-top: 2%;
 
 }
 
-.contact {
-    /* Group 162555 */
 
-    position: absolute;
-    width: 157px;
-    height: 44px;
-    left: 240px;
-    top: 464px;
-
-
-
-    /* BG */
-
-    position: absolute;
-    left: 16.67%;
-    right: 72.43%;
-    top: 24.88%;
-    bottom: 72.76%;
-
-    background: #3461AB;
-    border: 2px solid #3461AB;
-    backdrop-filter: blur(1px);
-    /* Note: backdrop-filter has minimal browser support */
-    border-radius: 5px;
-
-
-    /* Get Beta Access */
-
-    position: absolute;
-    height: 24px;
-    left: 17.22%;
-    right: 72.99%;
-    top: calc(50% - 24px/2 - 446.5px);
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-    text-align: center;
-    letter-spacing: -0.500211px;
-
-    color: #FFFFFF;
-
-
-}
 
 #cadre1 {
     position: relative;
@@ -81,8 +41,8 @@
     position: absolute;
     width: 50px;
     height: 50px;
-    left: 359px;
-    top: 2173px;
+    left: 350px;
+    top: 712px;
 
     background: #3461AB;
 }
@@ -111,26 +71,7 @@
 
 }
 
-#get_devis h2 {
-    /* Demandez un devis */
 
-    position: absolute;
-    width: 469px;
-    height: 56px;
-    left: 563px;
-    top: 730px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 140%;
-
-
-    color: #000000;
-
-
-}
 
 /* Format pc */
 
@@ -146,6 +87,40 @@
         left: 200px;
         top: 856px;
         line-height: 39px;
+    }
+
+    #get_devis p {
+
+        position: absolute;
+        width: 469px;
+        height: 56px;
+        left: 500px;
+        top: 700px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 140%;
+
+
+        color: #000000;
+
+
+    }
+
+    #vouloir_devis {
+
+        margin-top: -50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 96px;
+
+        color: #FFFFFF;
+
+
     }
 
 }
@@ -165,18 +140,31 @@
         top: 500px;
         line-height: 25px;
     }
+
+    #get_devis p {
+
+        position: absolute;
+        width: 469px;
+        height: 56px;
+        left: 0px;
+        top: 390px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+    }
 }
 
 .input_cadre {
     /* Group 53 */
-
     position: absolute;
     width: 400px;
     height: 50px;
     left: 519px;
     top: 1083px;
-
-
 
 }
 
@@ -192,12 +180,9 @@
 
     color: #000000;
 
-
 }
 
 #monsieur {
-
-
     position: absolute;
     width: 68px;
     height: 23px;
@@ -239,65 +224,47 @@
 
     color: #1966B3;
 
-
-}
-
-.container-polygone {
-
-    position: relative;
-    width: 200px;
-    /* Ajustez la largeur au besoin */
-    height: 800px;
-    /* Ajustez la hauteur au besoin */
-
 }
 
 .polygones {
-    /* Group 162528 */
 
     position: absolute;
     width: 104.66px;
     height: 120.07px;
-    left: -39px;
-    top: 610px;
-
+    left: -29px;
+    top: 1103px;
 
 }
 
 #polygone2 {
 
-
     box-sizing: border-box;
 
     position: absolute;
     width: 73px;
     height: 73px;
-    left: -33.4px;
-    top: 666.01px;
+    left: -23.4px;
+    top: 1159.01px;
 
     border: 1px solid #3461AB;
-    transform: rotate(-20.66deg);
+    transform: rotate(-28.66deg);
 }
 
 
 #polygone1 {
-
-
     box-sizing: border-box;
 
     position: absolute;
     width: 73px;
     height: 73px;
-    left: -39px;
-    top: 645.01px;
+    left: -29px;
+    top: 1138.01px;
 
     border: 3px solid #3461AB;
     transform: rotate(-28.66deg);
 }
 
 .quiz_header {
-
-
     position: absolute;
     width: 1440px;
     height: 304px;
@@ -383,8 +350,6 @@
     left: 222px;
     top: 784px;
 
-
-
     /* Rectangle 9563 */
 
     box-sizing: border-box;
@@ -419,9 +384,6 @@
     letter-spacing: -0.656526px;
 
     color: #3B3A3A;
-
-
-
     /* Ellipse 59 */
 
     box-sizing: border-box;
@@ -451,12 +413,11 @@
 
 .cercle {
     /* Ellipse 1 */
-
     position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 700px;
-    top: 51px;
+    width: 50px;
+    height: 50px;
+    left: 760px;
+    top: 30px;
 
     /* background: #E20044; */
 
