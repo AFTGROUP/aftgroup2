@@ -105,27 +105,39 @@
             <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 60%; height: auto; top: 0;">
             <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 53%; height: 80%; position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 15%; left: 6%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de conception de logo sont conçus pour donner vie à
+                votre identité visuelle, en créant des logos mémorables et uniques"><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Logo </span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 25%; left: 6%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous créons des directives graphiques personnalisées
+                qui vous aident à maintenir une image professionnelle et reconnaissable
+                dans tous vos supports de communication, du web aux imprimés."><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Charte graphique </span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 35%; left: 6%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous personnalisons chaque détail pour refléter votre
+              identité visuelle, offrant ainsi une touche élégante à vos communications
+              électroniques. Avec la signature mail, permettez à votre destinataire
+              d’identifier et d’authentifier votre entreprise."><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> Signature mail </span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 45%; left: 6%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Que ce soit à travers des papiers entête, des
+            dépliants, des affiches ou d'autres supports imprimés, nous créons des
+            outils de communication visuelle qui captivent l'attention, renforcent votre
+            message et laissent une impression durable."><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Support de communication </span>
             </a>
         </div>
         <div class="fas fa-icone-2" style="position: absolute; top: 55%; left: 6%; font-size: 16px; color: white;">
-          <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+          <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de mise en page de documents
+          vous aident à présenter vos informations de manière professionnelle, que
+          ce soit pour des rapports, des présentations, des brochures, des manuels,ou d'autres supports écrits, garantissant ainsi que votre contenu soit à la
+          fois engageant et facile à comprendre."><img src="assets/img/codesandbox.png">
           <span style="font-size: 15px; color: white; margin-left: 3px;">Mise en page documents </span>
           </a>
       </div>
@@ -140,22 +152,34 @@
         <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 80%; height: auto; top: 0; padding: 10%">
          <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 55%; height: 65%; position: absolute; top: 50%; left: 40%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 20%; left: 14%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos concepteurs créent des
+                rendus visuels détaillés qui capturent l'essence de votre projet, vous
+                permettant de visualiser et de perfectionner l'expérience utilisateur avant
+                le développement."><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Réalisation de maquette web/mobile</span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 14%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos concepteurs créent des
+                représentations détaillées de l'interface de votre application, vous
+                permettant de visualiser son aspect, sa convivialité et son flux avant le
+                développement."><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Réalisation de mockup pour application </span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 40%; left: 14%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Notre service de mise à jour et
+              de modification de maquette vous permet d'ajuster et de perfectionner
+              vos conceptions existantes pour répondre aux besoins changeants de votre
+              projet."><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> Mise à jour ou modification de maquette</span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 50%; left: 14%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Notre service de prototypage vous permet d'explorer le
+            fonctionnement de votre application ou site web, de tester, itérer et
+            perfectionner votre concept, garantissant ainsi que la réalisation finale soit
+            alignée sur vos objectifs et les attentes de vos utilisateurs."><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Prototypage </span>
             </a>
         </div>
@@ -194,22 +218,30 @@
       <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 70%; height: auto; top: 0;">
             <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 60%; height: 85%; position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
           <div class="fas fa-icone-1" style="position: absolute; top: 10%; left: 6%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de stratégie digitale sont conçus pour
+              renforcer votre présence en ligne, améliorer votre visibilité et maximiser
+              votre impact sur le marché."><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;">Stratégie digitale </span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 20%; left: 6%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services en e-mailing vous aident à créer, diffuser et suivre
+              des campagnes ciblées, engageantes et efficaces, que ce soit pour la
+              promotion de vos produits ou la fidélisation de vos clients."><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> E-mailling</span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 6%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services en réseaux sociaux sont conçus pour
+            renforcer votre image de marque sur les plateformes sociales, élargir votre
+            audience et favoriser l'engagement de vos followers."><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Réseaux sociaux </span>
             </a>
         </div>
         <div class="fas fa-icone-2" style="position: absolute; top: 40%; left: 6%; font-size: 16px; color: white;">
-          <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+          <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de référencement SEO et SEA optimisent
+          votre présence sur les moteurs de recherche, augmentant ainsi la visibilité
+          de votre entreprise et attirant un trafic de qualité."><img src="assets/img/codesandbox.png">
           <span style="font-size: 15px; color: white; margin-left: 3px;">Référencements naturel (SEO) et payant (SEA)  </span>
           </a>
       </div>
@@ -225,22 +257,32 @@
       <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 80%; height: auto; top: 0; padding: 10%">
          <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 55%; height: 65%; position: absolute; top: 50%; left: 40%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
           <div class="fas fa-icone-1" style="position: absolute; top: 20%; left: 14%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous transformons votre entreprise en une vitrine numérique
+              élégante et convaincante, lui donnant une présence en ligne captivante,
+              tout en mettant en avant votre identité, vos produits et vos services de
+              manière attrayante."><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;">Site vitrine </span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 14%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de conception de site sur mesure vous
+              offrent une solution numérique avec une expérience utilisateur
+              exceptionnelle entièrement adaptée à vos objectifs spécifiques et à votre
+              identité."><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> Site sur mesure</span>
               </a>
           </div>
           <div class="fas fa-icone-1" style="position: absolute; top: 40%; left: 14%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous créons des plateformes de vente en ligne
+            performantes, offrant une expérience d'achat convaincante, une gestion
+            intuitive et des fonctionnalités avancées."><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Site e-commerce </span>
             </a>
         </div>
         <div class="fas fa-icone-1" style="position: absolute; top: 50%; left: 14%; font-size: 16px; color: white;">
-          <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+          <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de conception de catalogue en ligne
+          transforment vos produits en une expérience d'achat visuelle, permettant
+          à vos clients de les découvrir de manière captivante."><img src="assets/img/codesandbox.png">
           <span style="font-size: 15px; color: white; margin-left: 3px;">Catalogue en ligne </span>
           </a>
       </div>
@@ -272,12 +314,17 @@
           <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 70%; height: auto; top: 0;">
             <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 60%; height: 85%; position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
               <div class="fas fa-icone-1" style="position: absolute; top: 10%; left: 8%; font-size: 16px; color: white;">
-                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Avec l’expertise de notre équipe de
+                  développement, vous avez l'assurance de disposer d'un logiciel de gestion
+                  qui renforce votre efficacité et stimule votre croissance, évoluant en
+                  parfaite harmonie avec votre entreprise."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Logiciel de gestion et sur mesure</span>
                   </a>
               </div>
               <div class="fas fa-icone-2" style="position: absolute; top: 20%; left: 8%; font-size: 16px; color: white;">
-                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
+                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous transformons vos idées en applications
+                  mobiles exceptionnelles, offrant une expérience utilisateur fluide et
+                  attrayante, que ce soit pour iOS, Android ou d'autres plateformes."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;"> Application mobile et iOS</span>
                   </a>
               </div>
