@@ -105,27 +105,27 @@
             <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 60%; height: auto; top: 0;">
             <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 53%; height: 80%; position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 15%; left: 6%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Logo </span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 25%; left: 6%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Charte graphique </span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 35%; left: 6%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> Signature mail </span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 45%; left: 6%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Support de communication </span>
             </a>
         </div>
         <div class="fas fa-icone-2" style="position: absolute; top: 55%; left: 6%; font-size: 16px; color: white;">
-          <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+          <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
           <span style="font-size: 15px; color: white; margin-left: 3px;">Mise en page documents </span>
           </a>
       </div>
@@ -140,22 +140,22 @@
         <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 80%; height: auto; top: 0; padding: 10%">
          <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 55%; height: 65%; position: absolute; top: 50%; left: 40%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 20%; left: 14%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Réalisation de maquette web/mobile</span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 14%; font-size: 16px; color: white;">
-                <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+                <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
                 <span style="font-size: 15px; color: white; margin-left: 3px;">Réalisation de mockup pour application </span>
                 </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 40%; left: 14%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> Mise à jour ou modification de maquette</span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 50%; left: 14%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Prototypage </span>
             </a>
         </div>
@@ -194,22 +194,22 @@
       <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 70%; height: auto; top: 0;">
             <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 60%; height: 85%; position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
           <div class="fas fa-icone-1" style="position: absolute; top: 10%; left: 6%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;">Stratégie digitale </span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 20%; left: 6%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> E-mailling</span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 6%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Réseaux sociaux </span>
             </a>
         </div>
         <div class="fas fa-icone-2" style="position: absolute; top: 40%; left: 6%; font-size: 16px; color: white;">
-          <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+          <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
           <span style="font-size: 15px; color: white; margin-left: 3px;">Référencements naturel (SEO) et payant (SEA)  </span>
           </a>
       </div>
@@ -225,22 +225,22 @@
       <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 80%; height: auto; top: 0; padding: 10%">
          <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 55%; height: 65%; position: absolute; top: 50%; left: 40%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
           <div class="fas fa-icone-1" style="position: absolute; top: 20%; left: 14%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;">Site vitrine </span>
               </a>
           </div>
           <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 14%; font-size: 16px; color: white;">
-              <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+              <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
               <span style="font-size: 15px; color: white; margin-left: 3px;"> Site sur mesure</span>
               </a>
           </div>
           <div class="fas fa-icone-1" style="position: absolute; top: 40%; left: 14%; font-size: 16px; color: white;">
-            <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+            <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
             <span style="font-size: 15px; color: white; margin-left: 3px;">Site e-commerce </span>
             </a>
         </div>
         <div class="fas fa-icone-1" style="position: absolute; top: 50%; left: 14%; font-size: 16px; color: white;">
-          <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+          <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
           <span style="font-size: 15px; color: white; margin-left: 3px;">Catalogue en ligne </span>
           </a>
       </div>
@@ -272,12 +272,12 @@
           <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 70%; height: auto; top: 0;">
             <img src="assets/img/services-images/photographe-afro-americain-editant-photographie-numerique_482257-26776.jpg" alt="Description de la deuxième image" style="width: 60%; height: 85%; position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
               <div class="fas fa-icone-1" style="position: absolute; top: 10%; left: 8%; font-size: 16px; color: white;">
-                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Logiciel de gestion et sur mesure</span>
                   </a>
               </div>
               <div class="fas fa-icone-2" style="position: absolute; top: 20%; left: 8%; font-size: 16px; color: white;">
-                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title="">111
+                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title=""><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;"> Application mobile et iOS</span>
                   </a>
               </div>
@@ -304,37 +304,37 @@
          <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 60%; height: auto; top: 0;">
          <img src="assets/img/services/contexte-programmation-personne-travaillant-codes-ordinateur_23-2150010125.jpg" alt="Description de la deuxième image" style="width: 55%; height: 80%; position: absolute; top: 50%; left: 30%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 15%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous vous garantissons une gestion transparente de votre système d’information, ainsi qu’une direction des systèmes d’information externalisée.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous vous garantissons une gestion transparente de votre système d’information, ainsi qu’une direction des systèmes d’information externalisée."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Infogérance, co-gérance, DSI déportée</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 25%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous offrons un soutien dédié pour résoudre vos problèmes informatiques, répondre aux questions des utilisateurs et garantir que votre entreprise puisse tirer le meilleur parti de ses technologies.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous offrons un soutien dédié pour résoudre vos problèmes informatiques, répondre aux questions des utilisateurs et garantir que votre entreprise puisse tirer le meilleur parti de ses technologies."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Support utilisateuret support IT</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 35%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous réalisons des évaluations approfondies de vos systèmes informatiques et de vos processus, et vous fournissons des conseils stratégiques pour optimiser votre infrastructure et vos performances.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous réalisons des évaluations approfondies de vos systèmes informatiques et de vos processus, et vous fournissons des conseils stratégiques pour optimiser votre infrastructure et vos performances."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Audit et conseils</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 45%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous pilotons et supervisons de manière experte vos initiatives, de la planification à la réalisation, garantissant que vos projets sont livrés à temps et dans les limites du budget.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous pilotons et supervisons de manière experte vos initiatives, de la planification à la réalisation, garantissant que vos projets sont livrés à temps et dans les limites du budget."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Gestion de projets</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 55%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous vous offrons une solution complète pour optimiser et maintenir votre infrastructure technologique. Nous assurons disponibilité, performance et sécurité de vos systèmes.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous vous offrons une solution complète pour optimiser et maintenir votre infrastructure technologique. Nous assurons disponibilité, performance et sécurité de vos systèmes."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Management de parc</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 65%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous intervenons avec efficacité pour installer, configurer et maintenir votre infrastructure directement sur votre site, vous offrant une tranquillité d’esprit totale.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous intervenons avec efficacité pour installer, configurer et maintenir votre infrastructure directement sur votre site, vous offrant une tranquillité d’esprit totale."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Intervention sur site et déploiement</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 75%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title=" Nous facilitons, à votre entreprise, la transition vers de nouvelles solutions en guidant votre équipe à travers les étapes du changement, favorisant une adoption en douceur des nouvelles technologies et processus.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title=" Nous facilitons, à votre entreprise, la transition vers de nouvelles solutions en guidant votre équipe à travers les étapes du changement, favorisant une adoption en douceur des nouvelles technologies et processus."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Accompagnement au changement</span>
                </a>
             </div>
@@ -350,37 +350,37 @@
          <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 80%; height: auto; top: 0; padding: 10%">
          <img src="assets/img/services/contexte-programmation-personne-travaillant-codes-ordinateur_23-2150010125.jpg" alt="Description de la deuxième image" style="width: 55%; height: 60%; position: absolute; top: 50%; left: 40%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 23%; left: 14%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous effectuons des évaluations complètes pour identifier les vulnérabilités et les menaces potentielles puis nous proposons des solutions solides pour renforcer la sécurité de votre infrastructure.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous effectuons des évaluations complètes pour identifier les vulnérabilités et les menaces potentielles puis nous proposons des solutions solides pour renforcer la sécurité de votre infrastructure."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Diagnostic et audit de sécurité </span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 14%; font-size: 16px; color: white;">
-                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de sécurité managés sont vos remparts numériques contre les menaces. Nous déployons des solutions de sécurité de pointe pour protéger vos systèmes 24/7.">111
+                  <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de sécurité managés sont vos remparts numériques contre les menaces. Nous déployons des solutions de sécurité de pointe pour protéger vos systèmes 24/7."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Antivirus et services managés de sécurité</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 37%; left: 14%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous établissons des défenses robustes pour protéger vos données et vos communications, garantissant un flux ininterrompu d’informations sécurisées.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous établissons des défenses robustes pour protéger vos données et vos communications, garantissant un flux ininterrompu d’informations sécurisées."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Sécurité des flux et pare-feux </span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 44%; left: 14%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services en Authentification multifacteur (MFA) renforcent votre sécurité en ajoutant des couches supplémentaires de protection.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services en Authentification multifacteur (MFA) renforcent votre sécurité en ajoutant des couches supplémentaires de protection."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Authentification multi-facteurs</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 51%; left: 14%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title=": Nous mettons en place des solutions sécurisées pour garantir que vos collaborateurs, où qu’ils se trouvent, puissent accéder à vos systèmes en toute sécurité.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title=": Nous mettons en place des solutions sécurisées pour garantir que vos collaborateurs, où qu’ils se trouvent, puissent accéder à vos systèmes en toute sécurité."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Sécurité des accès à distance</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 58%; left: 14%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous mettons en place des solutions robustes pour vérifier et sécuriser les l’identité de chaque utilisateur, garantissant que seules les personnes autorisées aient accès à vos systèmes.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous mettons en place des solutions robustes pour vérifier et sécuriser les l’identité de chaque utilisateur, garantissant que seules les personnes autorisées aient accès à vos systèmes."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Sécurité des identités</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 65%; left: 14%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos formations des utilisateurs sont conçues pour transformer les collaborateurs en experts du numérique grâce à des programmes de formation sur mesure">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos formations des utilisateurs sont conçues pour transformer les collaborateurs en experts du numérique grâce à des programmes de formation sur mesure"><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Formation des utilisateurs</span>
                </a>
             </div>
@@ -408,70 +408,73 @@
          <img src="assets/img/services/Group 162574.png" alt="Description de la première image" style="max-width: 70%; height: auto; top: 0;">
          <img src="assets/img/services/contexte-programmation-personne-travaillant-codes-ordinateur_23-2150010125.jpg" alt="Description de la deuxième image" style="width: 53%; height: 50%; position: absolute; top: 8%; left: 3%; border-radius: 10px; filter: brightness(0.2);">
             <div class="fas fa-icone-1" style="position: absolute; top: 15%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous vous aidons à vous équiper de postes de travail de pointe, fiables et performants, parfaitement adaptés à vos besoins pour optimiser la productivité de votre entreprise.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous vous aidons à vous équiper de postes de travail de pointe, fiables et performants, parfaitement adaptés à vos besoins pour optimiser la productivité de votre entreprise."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Postes de travail</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 30%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de fourniture de périphériques IT vous donnent accès à une gamme complète de solutions matérielles de haute qualité.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nos services de fourniture de périphériques IT vous donnent accès à une gamme complète de solutions matérielles de haute qualité."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">Périphériques IT</span>
                </a>
             </div>
             <div class="fas fa-icone-2" style="position: absolute; top: 45%; left: 5%; font-size: 16px; color: white;">
-               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous fournissons des PC et des tablettes performants pour répondre à vos besoins professionnels, que ce soit pour les tâches quotidiennes, la mobilité ou la puissance de calcul.">111
+               <a style="text-decoration:none" href="#" data-toggle="tooltip" title="Nous fournissons des PC et des tablettes performants pour répondre à vos besoins professionnels, que ce soit pour les tâches quotidiennes, la mobilité ou la puissance de calcul."><img src="assets/img/codesandbox.png">
                   <span style="font-size: 15px; color: white; margin-left: 3px;">PC et Tablettes</span>
                </a>
             </div>
       </div>              
    </div>
 </div>
-
+</div>
 <!-- SERVICE INNOVATION DIGITALE -->
 
 <div class="tab-content" id="tab3">
 <!-- item 1 -->
+
 <div class="row" style="margin-bottom: 10%; margin-top: 5%">
-   <div class="col-md-6" style="padding: 4%" >
-      <h2 style="text-align: left;">Réalité Virtuelle(VR) et Augmentée(AR)</h2>
-      <p style="text-align: justify; color: black;">Chez AFT GROUP, nous sommes les créateurs d'univers virtuels et
-      augmentés. Notre équipe est spécialisée dans la conception et le
-      développement de projets de réalité virtuelle et augmentée, offrant des
-      expériences immersives uniques. Que vous cherchiez à révolutionner une
-      formation, à offrir des visites virtuelles captivantes ou à créer des
-      applications innovantes, nous sommes là pour transformer vos idées en
-      expériences digitales éblouissantes. Explorez un nouveau monde de
-      possibilités avec nos services en réalité virtuelle et augmentée
-      </p>
-   </div>
-   <div class="col-md-6">
-      <div style="position: relative;">
-         <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 50%; height: auto; top: 0;">
-         <img src="assets/img/services/personne-travaillant-html-ordinateur_23-2150038846.jpg" alt="Description de la deuxième image" style="width: 43%; height: 80%; position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
-         <img src="assets/img/services/Vector 10.png" alt="Description de la troisième image" style="max-width: 50%; height: auto; position: absolute; top: 110%; left: 45%; transform: translate(-50%, -50%);">
-      </div>
-   </div>  
+  <div class="col-md-6" style="padding: 4%" >
+     <h2 style="text-align: left;">Réalité Virtuelle(VR) et Augmentée(AR)</h2>
+     <p style="text-align: justify; color: black;">Chez AFT GROUP, nous sommes les créateurs d'univers virtuels et
+     augmentés. Notre équipe est spécialisée dans la conception et le
+     développement de projets de réalité virtuelle et augmentée, offrant des
+     expériences immersives uniques. Que vous cherchiez à révolutionner une
+     formation, à offrir des visites virtuelles captivantes ou à créer des
+     applications innovantes, nous sommes là pour transformer vos idées en
+     expériences digitales éblouissantes. Explorez un nouveau monde de
+     possibilités avec nos services en réalité virtuelle et augmentée
+     </p>
+  </div>
+  <div class="col-md-6">
+     <div style="position: relative;">
+        <img src="assets/img/services/Rectangle 9541.png" alt="Description de la première image" style="max-width: 50%; height: auto; top: 0;">
+        <img src="assets/img/services/personne-travaillant-html-ordinateur_23-2150038846.jpg" alt="Description de la deuxième image" style="width: 43%; height: 80%; position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
+        <img src="assets/img/services/Vector 10.png" alt="Description de la troisième image" style="max-width: 50%; height: auto; position: absolute; top: 110%; left: 45%; transform: translate(-50%, -50%);">
+     </div>
+  </div>  
 </div>
 
 <!-- item 2 -->
 <div class="row" style="margin-bottom: 15%;">
-   <div class="col-md-6">
-      <div style="position: relative;">
-         <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 70%; height: auto; top: 0; padding: 10%">
-         <img src="assets/img/services/personne-travaillant-html-ordinateur_23-2150038846.jpg" alt="Description de la deuxième image" style="width: 45%; height: 59%; position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
-         <img src="assets/img/services/Vector 9.png" alt="Description de la troisième image" style="max-width: 50%; height: auto; position: absolute; top: 97.5%; right: 85%; transform: translate(50%, -50%);">
-      </div>
-   </div>
-   <div class="col-md-6" style="padding: 4%">
-      <h2 style="text-align: left;">Donné vie à ses idées</h2>
-      <p style="text-align: justify; color: black;">À AFT GROUP, nous sommes les artisans de votre vision.Notre mission est
-      de donner vie à vos concepts, de les façonner en solutions numériques
-      innovantes. Nous sommes là pour concrétiser votre vision et propulser
-      votre entreprise vers un avenir numérique florissant. Faites équipe avec
-      nous pour faire de vos idées une réalité.
-      </p>
-   </div>
+  <div class="col-md-6">
+     <div style="position: relative;">
+        <img src="assets/img/services/Rectangle 9543.png" alt="Description de l'image" style="max-width: 70%; height: auto; top: 0; padding: 10%">
+        <img src="assets/img/services/personne-travaillant-html-ordinateur_23-2150038846.jpg" alt="Description de la deuxième image" style="width: 45%; height: 59%; position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
+        <img src="assets/img/services/Vector 9.png" alt="Description de la troisième image" style="max-width: 50%; height: auto; position: absolute; top: 97.5%; right: 85%; transform: translate(50%, -50%);">
+     </div>
+  </div>
+  <div class="col-md-6" style="padding: 4%">
+     <h2 style="text-align: left;">Donné vie à ses idées</h2>
+     <p style="text-align: justify; color: black;">À AFT GROUP, nous sommes les artisans de votre vision.Notre mission est
+     de donner vie à vos concepts, de les façonner en solutions numériques
+     innovantes. Nous sommes là pour concrétiser votre vision et propulser
+     votre entreprise vers un avenir numérique florissant. Faites équipe avec
+     nous pour faire de vos idées une réalité.
+     </p>
+  </div>
+
 </div>
-</div>
+
+  
 
 </div>
 <script>

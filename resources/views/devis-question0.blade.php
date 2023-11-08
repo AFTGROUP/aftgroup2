@@ -2,7 +2,9 @@
 
 @section('content')
    
-
+<div class="banner">
+  <div class="content"> <h3 class="text-light text-center">Quel est le prix pour un site professionnel</h3></div>
+</div>
 
                
 
@@ -103,9 +105,7 @@
 
 
 
-<div class="banner">
-   <div class="content"> <h3 class="text-light text-center">Quel est le prix pour un site professionnel</h3></div>
-</div>
+
 
 <div class="container box-question p-3">
 <h3>QUESTION  0</h3>
@@ -129,6 +129,8 @@
   <div class="mb-3 d-flex justify-content-end">
     <button type="submit" class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
   </div>
+</div>
+</div>
   
   
                   
@@ -142,7 +144,47 @@
                 <br>
                 <br>
 
+                 <div class="container box-question p-3">
+                 <h3>QUESTION  1/11</h3>
+                 
+                 <div class="form-group">
+                     <label><b>Quel type de site vitrine  souhaitez-vous ?</b></label>
+                     <div class="custom-control custom-radio">
+                       <input class="custom-control-input" type="radio" name="radioOptions" id="optionA" value="optionA">
+                       <label class="custom-control-label" for="optionA">Entièrement sur mesure</label>
+                     </div>
+                     <div class="custom-control custom-radio">
+                       <input class="custom-control-input" type="radio" name="radioOptions" id="optionB" value="optionB">
+                       <label class="custom-control-label" for="optionB">Templates</label>
+                     </div>
+                     <div class="custom-control custom-radio">
+                       <input class="custom-control-input" type="radio" name="radioOptions" id="optionC" value="optionC">
+                       <label class="custom-control-label" for="optionC">Personnalisation d'un templates</label>
+                     </div>
+                   </div>
+                 <br><br>
+                 <div class="d-flex justify-content-between">
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-outline-primary p-2 ">Retour</button>
+                  </div>
+                  <div class="mb-3">
+                    <button type="submit" class="btn btn-primary p-2 ">Suivant</button>
+                  </div>
+                </div>
+                
+                   
+                   
+                                  
+                <br>
+                <br>
+                <br>
+                <br>
 
+                <br>
+                <br>
+                <br>
+                <br>        
+                 
               
 
         </div>
