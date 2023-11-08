@@ -130,12 +130,12 @@
             <div class="form-group">
                 <label><b>Quel type de site e-commerce souhaitez-vous ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="type_site" id="optionA" value="Prestashop">
-                    <label class="custom-control-label" for="optionA">Prestashop</label>
+                    <input class="custom-control-input" type="radio" name="type_site" id="type_site" value="Prestashop">
+                    <label class="custom-control-label" for="type_site">Prestashop</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="type_site" id="optionB" value="Personnalisé">
-                    <label class="custom-control-label" for="optionB">Personnalisé</label>
+                    <input class="custom-control-input" type="radio" name="type_site" id="Personnalise" value="Personnalisé">
+                    <label class="custom-control-label" for="Personnalise">Personnalisé</label>
                 </div>
 
             </div>
@@ -152,12 +152,12 @@
             <div class="form-group">
                 <label><b>Posséder vous déjà un logo ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="logo" id="optionA" value="oui">
-                    <label class="custom-control-label" for="optionA">Oui</label>
+                    <input class="custom-control-input" type="radio" name="logo" id="logoA" value="oui">
+                    <label class="custom-control-label" for="logoA">Oui</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="logo" id="optionB" value="non">
-                    <label class="custom-control-label" for="optionB">Non</label>
+                    <input class="custom-control-input" type="radio" name="logo" id="logoB" value="non">
+                    <label class="custom-control-label" for="logoB">Non</label>
                 </div>
 
             </div>
@@ -180,19 +180,19 @@
             <div class="form-group">
                 <label><b>Faut-il prévoir de la rédaction de contenue ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="optionA"
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="redaction_contenueA"
                         value="oui">
-                    <label class="custom-control-label" for="optionA">Oui</label>
+                    <label class="custom-control-label" for="redaction_contenueA">Oui</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="optionB"
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="redaction_contenueB"
                         value="non">
-                    <label class="custom-control-label" for="optionB">Non</label>
+                    <label class="custom-control-label" for="redaction_contenueB">Non</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="optionC"
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="redaction_contenueC"
                         value="tout_sera_fournie">
-                    <label class="custom-control-label" for="optionC">Tout sera fournit</label>
+                    <label class="custom-control-label" for="redaction_contenueC">Tout sera fournit</label>
                 </div>
             </div>
             <br><br>
@@ -214,13 +214,13 @@
             <div class="form-group">
                 <label><b>Optimisation au référencement ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="referencement" id="optionA" value="oui">
-                    <label class="custom-control-label" for="optionA">Oui</label>
+                    <input class="custom-control-input" type="radio" name="referencement" id="referencementA" value="oui">
+                    <label class="custom-control-label" for="referencementA">Oui</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="referencement" id="optionB"
+                    <input class="custom-control-input" type="radio" name="referencement" id="referencementB"
                         value="non">
-                    <label class="custom-control-label" for="optionB">Non</label>
+                    <label class="custom-control-label" for="referencementB">Non</label>
                 </div>
 
             </div>
@@ -243,15 +243,15 @@
             <div class="form-group">
                 <label><b>Choix du système de payement en ligne ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="moyen_paiement" id="optionA"
+                    <input class="custom-control-input" type="radio" name="moyen_paiement" id="moyen_paiementA"
                         value="portefeuille">
-                    <label class="custom-control-label" for="optionA">Portefeuille électronique : Mobile Money, Moov
+                    <label class="custom-control-label" for="moyen_paiementA">Portefeuille électronique : Mobile Money, Moov
                         Money, Celtiis Cash . . .</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="moyen_paiement" id="optionB"
+                    <input class="custom-control-input" type="radio" name="moyen_paiement" id="moyen_paiementB"
                         value="carte_bancaire">
-                    <label class="custom-control-label" for="optionB">Carte bancaire + Portefeuille éléctronique</label>
+                    <label class="custom-control-label" for="moyen_paiemen.B">Carte bancaire + Portefeuille éléctronique</label>
                 </div>
 
             </div>
@@ -308,9 +308,15 @@
         }
 
         function showSummary() {
-            // Enregistrez les données finales dans formData.
-            // Affichez le résumé des données.
-            document.getElementById('summaryData').textContent = JSON.stringify(formData);
+            const summaryDataElement = document.getElementById('summaryData');
+            summaryDataElement.innerHTML = ''; // Effacez le contenu précédent
+        
+            for (const key in formData) {
+                const dataItem = document.createElement('p');
+                dataItem.textContent = key + ': ' + formData[key];
+                summaryDataElement.appendChild(dataItem);
+            }
+        
             document.getElementById('summary').style.display = 'block';
         }
     </script>

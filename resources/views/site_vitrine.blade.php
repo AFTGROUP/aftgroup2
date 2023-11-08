@@ -138,7 +138,7 @@
                     <label class="custom-control-label" for="optionB">Template</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="type_site" id="optionB" value="Personnalisation">
+                    <input class="custom-control-input" type="radio" name="type_site" id="optionC" value="Personnalisation">
                     <label class="custom-control-label" for="optionB">Personnalisation du template</label>
                 </div>
 
@@ -281,11 +281,6 @@
         <button onclick="previousSection(3)">Retour</button>
     </div>
     <pre>
-
-
-
-
-
 
   </pre>
 
