@@ -125,7 +125,7 @@
 
    
         <section class="container box-question p-5 " id="section1">
-            <h3>QUESTION 1 sur 5</h3>
+            <h3>QUESTION 1 sur 10</h3>
 
             <div class="form-group">
                 <label><b>Quel type de site vitrine souhaitez-vous ?</b></label>
@@ -151,7 +151,7 @@
 
         </section>
         <section class="container box-question p-5 " id="section2" style="display: none;">
-            <h3>QUESTION 2 sur 5</h3>
+            <h3>QUESTION 2 sur 10</h3>
 
             <div class="form-group">
                 <label><b>Souhaitez vous avoir une maquette ?</b></label>
@@ -179,7 +179,7 @@
 
         </section>
         <section class="container box-question p-5 " id="section3" style="display: none;">
-            <h3>QUESTION 3 sur 5</h3>
+            <h3>QUESTION 3 sur 10</h3>
 
             <div class="form-group">
                 <label><b>No,bre de pages ?</b></label>
@@ -204,7 +204,7 @@
 
         </section>
         <section class="container box-question p-5 " id="section4" style="display: none;">
-            <h3>QUESTION 4 sur 5</h3>
+            <h3>QUESTION 4 sur 10</h3>
 
             <div class="form-group">
                 <label><b>Souhaitez vous une page actualité ?</b></label>
@@ -233,7 +233,7 @@
 
         </section>
         <section class="container box-question p-5 " id="section5" style="display: none;">
-            <h3>QUESTION 5 sur 5</h3>
+            <h3>QUESTION 5 sur 10</h3>
 
             <div class="form-group">
                 <label><b>Optimisation multi-éécrans : Responsive Design ?</b></label>
