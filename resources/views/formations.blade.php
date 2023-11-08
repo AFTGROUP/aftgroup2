@@ -58,6 +58,8 @@
         </div>
       </div>
       <div class="col-md-6">
+      <h1 class="text-light">Stratégie de <br>communication</h1>
+      <p class="text-light" style="text-align: justify;">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide thEnver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.e best service for those of you who use our services.</p>
       </div>
     </div>
   </section>
