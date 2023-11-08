@@ -43,7 +43,7 @@ Route::get('/prixLogicielApplication', function() {
 
 });
 
-Route::get('/devis-question', [DevisController::class, 'question0'])->name('question0');
+Route::post('/devis-question', [DevisController::class, 'question0'])->name('devis_question');
 
 //Site e-commerce
 
