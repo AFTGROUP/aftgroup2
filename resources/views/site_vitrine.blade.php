@@ -290,7 +290,7 @@
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(7)">Retour </button>
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(7)">Suivant </button>
 
             </div>
 
@@ -328,7 +328,7 @@
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(8)">Retour </button>
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(8)">Suivant </button>
 
             </div>
 
@@ -360,7 +360,7 @@
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(9)">Retour </button>
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(9)">Suivant </button>
 
             </div>
 
