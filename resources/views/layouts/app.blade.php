@@ -213,6 +213,7 @@
 
     <!-- Main Theme Script -->
     <script src="assets/js/theme.min.js"></script>
+    <script src="https://kit.fontawesome.com/3a537738e0.js" crossorigin="anonymous"></script>
   </body>
 
 <!-- Mirrored from silicon.createx.studio/landing-software-company.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:18:31 GMT -->
