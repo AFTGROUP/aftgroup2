@@ -43,11 +43,23 @@ Route::get('/prixLogicielApplication', function() {
 
 });
 
+Route::post('/userData', [DevisController::class, 'userData'])->name('userData');
 Route::post('/devis-question', [DevisController::class, 'question0'])->name('devis_question');
+Route::post('/choice', [DevisController::class, 'choice'])->name('choice');
+
+
+//Site vitrine
+
+Route::get('/site_vitrine', [DevisController::class, 'site_vitrine'] );
 
 //Site e-commerce
+Route::get('/site_e-commerce', [DevisController::class, 'site_e-commerce'] );
 
-Route::get('typeEcommerce', [EcommerceController::class, 'typeEcommerce'] );
+//Logiciel
+
+Route::get('/logiciel', [DevisController::class, 'logiciel'] );
+
+
 
 Auth::routes();
 
