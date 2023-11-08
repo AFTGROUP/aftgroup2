@@ -292,7 +292,7 @@
 }
 
 .quiz_header {
-   
+
 
     position: absolute;
     width: 1440px;
@@ -339,5 +339,107 @@
 
     border: 1px solid #3461AB;
     transform: rotate(-28.66deg);
+
+}
+
+.quiz_case {
+
+    position: absolute;
+    width: 1080px;
+    height: 615px;
+    left: 180px;
+    top: 389px;
+
+    background: #FFFFFF;
+    border-radius: 26px;
+
+}
+
+
+.separate {
+
+    position: absolute;
+    width: 1001px;
+    height: 12px;
+    left: 222px;
+    top: 494px;
+
+    background: #F6F6F6;
+    border-radius: 26px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+.choice-quiz-case {
+    /* Group 162565 */
+
+    position: absolute;
+    width: 1001px;
+    height: 74px;
+    left: 222px;
+    top: 784px;
+
+
+
+    /* Rectangle 9563 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1001px;
+    height: 74px;
+    left: 222px;
+    top: 858px;
+
+    background: #F6F6F6;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+    /* Create custom landin */
+
+    position: absolute;
+    width: 154px;
+    height: 39px;
+    left: 307px;
+    top: 802px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: -0.656526px;
+
+    color: #3B3A3A;
+
+
+
+    /* Ellipse 59 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 250px;
+    top: 806px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(108, 117, 125, 0.8);
+
+
+    /* Ellipse 61 */
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 254px;
+    top: 810px;
+
+    background: #3461AB;
 
 }

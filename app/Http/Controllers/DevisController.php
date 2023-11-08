@@ -12,4 +12,8 @@ class DevisController extends Controller
 
         return view('devis');
     }
+    public function question0(){
+
+        return view('devis-question0');
+    }
 }

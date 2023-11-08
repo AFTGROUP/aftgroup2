@@ -95,7 +95,7 @@
                     quelques secondes à un petit questionnaire en fonction de ce que vous
                     désirez.</p>
 
-
+                <form method="get" action="/devis-question">
                 <div class="row justify-content-center align-items-center mb-4 ">
                     <div class="d-flex ">
                         <div class="form-check form-check-inline">
@@ -137,22 +137,8 @@
 
 
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
 
-                <br>
-                <br>
-                <br>
-                <br>
-
-
-
-
-
-
-
+<br><br>
 
 
         </div>
