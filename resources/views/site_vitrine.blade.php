@@ -130,16 +130,16 @@
             <div class="form-group">
                 <label><b>Quel type de site vitrine souhaitez-vous ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="type_site" id="optionA" value="mesure">
-                    <label class="custom-control-label" for="optionA">Entièrement sur mesure</label>
+                    <input class="custom-control-input" type="radio" name="type_site" id="mesureA" value="mesure">
+                    <label class="custom-control-label" for="mesureA">Entièrement sur mesure</label>
                 </div>
                 <div class="custom-control custom-radio">
                     <input class="custom-control-input" type="radio" name="type_site" id="optionB" value="template">
-                    <label class="custom-control-label" for="optionB">Template</label>
+                    <label class="custom-control-label" for="templateB">Template</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="type_site" id="optionC" value="Personnalisation">
-                    <label class="custom-control-label" for="optionB">Personnalisation du template</label>
+                    <input class="custom-control-input" type="radio" name="type_site" id="PersonnalisationC" value="Personnalisation">
+                    <label class="custom-control-label" for="PersonnalisationB">Personnalisation du template</label>
                 </div>
 
             </div>
@@ -156,12 +156,12 @@
             <div class="form-group">
                 <label><b>Souhaitez vous avoir une maquette ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="logo" id="optionA" value="oui">
+                    <input class="custom-control-input" type="radio" name="maquette" id="maquetteA" value="oui">
                     <label class="custom-control-label" for="optionA">Oui</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="logo" id="optionB" value="non">
-                    <label class="custom-control-label" for="optionB">Non</label>
+                    <input class="custom-control-input" type="radio" name="maquette" id="maquetteB" value="non">
+                    <label class="custom-control-label" for="maquetteB">Non</label>
                 </div>
 
             </div>
@@ -182,22 +182,13 @@
             <h3>QUESTION 3 sur 5</h3>
 
             <div class="form-group">
-                <label><b>Faut-il prévoir de la rédaction de contenue ?</b></label>
+                <label><b>No,bre de pages ?</b></label>
                 <div class="custom-control custom-radio">
                     <input class="custom-control-input" type="radio" name="redaction_contenue" id="optionA"
                         value="oui">
                     <label class="custom-control-label" for="optionA">Oui</label>
                 </div>
-                <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="optionB"
-                        value="non">
-                    <label class="custom-control-label" for="optionB">Non</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="optionC"
-                        value="tout_sera_fournie">
-                    <label class="custom-control-label" for="optionC">Tout sera fournit</label>
-                </div>
+            
             </div>
             <br><br>
             <div class="mb-5 d-flex">
@@ -216,15 +207,15 @@
             <h3>QUESTION 4 sur 5</h3>
 
             <div class="form-group">
-                <label><b>Optimisation au référencement ?</b></label>
+                <label><b>Souhaitez vous une page actualité ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="referencement" id="optionA" value="oui">
-                    <label class="custom-control-label" for="optionA">Oui</label>
+                    <input class="custom-control-input" type="radio" name="actualite" id="actualiteA" value="oui">
+                    <label class="custom-control-label" for="actualiteA">Oui</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="referencement" id="optionB"
+                    <input class="custom-control-input" type="radio" name="actualite" id="actualiteB"
                         value="non">
-                    <label class="custom-control-label" for="optionB">Non</label>
+                    <label class="custom-control-label" for="actualiteB">Non</label>
                 </div>
 
             </div>
@@ -245,17 +236,17 @@
             <h3>QUESTION 5 sur 5</h3>
 
             <div class="form-group">
-                <label><b>Choix du système de payement en ligne ?</b></label>
+                <label><b>Optimisation multi-éécrans : Responsive Design ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="moyen_paiement" id="optionA"
-                        value="portefeuille">
-                    <label class="custom-control-label" for="optionA">Portefeuille électronique : Mobile Money, Moov
-                        Money, Celtiis Cash . . .</label>
+                    <input class="custom-control-input" type="radio" name="responsive_design" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="responsive_designA">Oui
+                     .</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="moyen_paiement" id="optionB"
-                        value="carte_bancaire">
-                    <label class="custom-control-label" for="optionB">Carte bancaire + Portefeuille éléctronique</label>
+                    <input class="custom-control-input" type="radio" name="responsive_design" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="responsive_designB">Non</label>
                 </div>
 
             </div>
@@ -267,19 +258,213 @@
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="showSummary()"> Terminer </button>
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(6)"> Terminer </button>
+
+            </div>
+
+        </section>
+
+        <section class="container box-question p-5 " id="section6" style="display: none;">
+            <h3>QUESTION 6 sur 10</h3>
+
+            <div class="form-group">
+                <label><b>Optimisation au référencement naturel ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="refrence_naturelA">Oui
+                     .</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Non</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="mb-5 d-flex">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(5)">Retour </button>
+
+            </div>
+            <div class="mb-5 d-flex justify-content-end">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(7)">Retour </button>
+
+            </div>
+
+        </section>
+
+        <section class="container box-question p-5 " id="section7" style="display: none;">
+            <h3>QUESTION 7 sur 10</h3>
+
+            <div class="form-group">
+                <label><b>Faut-il prévoir de la rédaction de contenue ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="refrence_naturelA">Oui
+                     .</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Non</label>
+                </div>
+
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Tout sera fourni</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="mb-5 d-flex">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(6)">Retour </button>
+
+            </div>
+            <div class="mb-5 d-flex justify-content-end">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(8)">Retour </button>
+
+            </div>
+
+        </section>
+
+        <section class="container box-question p-5 " id="section8" style="display: none;">
+            <h3>QUESTION 8 sur 10</h3>
+
+            <div class="form-group">
+                <label><b>Possedez vous déjà un logo ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="refrence_naturelA">Oui
+                     .</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Non</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="mb-5 d-flex">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(7)">Retour </button>
+
+            </div>
+            <div class="mb-5 d-flex justify-content-end">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(9)">Retour </button>
+
+            </div>
+
+        </section>
+
+        <section class="container box-question p-5 " id="section9" style="display: none;">
+            <h3>QUESTION 9 sur 10</h3>
+
+            <div class="form-group">
+                <label><b>Souhaitez-vous intégrer un ou des modules multimédias ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="refrence_naturelA">Oui
+                     .</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Non</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="mb-5 d-flex">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(8)">Retour </button>
+
+            </div>
+            <div class="mb-5 d-flex justify-content-end">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(10)">Suivant</button>
+
+            </div>
+
+        </section>
+
+        <section class="container box-question p-5 " id="section10" style="display: none;">
+            <h3>QUESTION 10 sur 11</h3>
+
+            <div class="form-group">
+                <label><b> Possédez-vous déjà un nom de domaine pour votre site ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="refrence_naturelA">Oui
+                     .</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Non</label>
+                </div>
+
+            </div>
+            <br><br>
+            <div class="mb-5 d-flex">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(9)">Retour </button>
+
+            </div>
+            <div class="mb-5 d-flex justify-content-end">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(11)">Suivant</button>
 
             </div>
 
         </section>
    
+        <section class="container box-question p-5 " id="section11" style="display: none;">
+            <h3>QUESTION 10 sur 11</h3>
 
-    <div id="summary" style="display: none;">
-        <h2>Résumé</h2>
-        <p>Données choisies :</p>
-        <div id="summaryData"></div>
-        <button onclick="previousSection(3)">Retour</button>
-    </div>
+            <div class="form-group">
+                <label><b>Possédez-vous déjà un hébergement pour votre site ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="redaction_contenue" id="responsive_designA"
+                        value="oui">
+                    <label class="custom-control-label" for="refrence_naturelA">Oui
+                     .</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="refrence_naturel" id="responsive_designB"
+                        value="non">
+                    <label class="custom-control-label" for="refrence_naturelB">Non</label>
+                </div>
+
+            </div>
+            <br><br>
+
+            <div class="mb-5 d-flex">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(10)">Retour </button>
+
+            </div>
+       
+            <div class="mb-5 d-flex justify-content-end">
+
+                <button class="btn btn-primary ml-auto p-2 w-25" onclick="showSummary()"> Terminer </button>
+
+            </div>
+
+        </section>
+
+   
     <pre>
 
   </pre>
