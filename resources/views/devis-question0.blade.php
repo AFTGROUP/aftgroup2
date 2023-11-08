@@ -145,34 +145,26 @@
             </div>
             <br><br>
             <div class="mb-5 d-flex justify-content-end">
-                <button  class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
+                <button class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
 
             </div>
+        </div>
     </form>
+    <pre>
 
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
-    <div class="mt-5"></div>
+
+
+
+
+
+  </pre>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $('form').submit(function(e) {
             e.preventDefault();
-        
+
             $.ajax({
                 type: 'POST',
                 url: '{{ route('choice') }}',
@@ -189,6 +181,5 @@
                 }
             });
         });
-        
     </script>
 @endsection

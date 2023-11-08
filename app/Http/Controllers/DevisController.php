@@ -41,10 +41,16 @@ class DevisController extends Controller
 
     public function site_e_commerce()
     {
+
+        return view('e_commerce');
     }
 
     public function logiciel()
     {
         return view('logiciel');
+    }
+
+    public function site_vitrine(){
+        return view('site_vitrine');
     }
 }

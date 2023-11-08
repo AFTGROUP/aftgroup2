@@ -49,10 +49,10 @@ Route::post('/choice', [DevisController::class, 'choice'])->name('choice');
 
 //Site vitrine
 
-Route::get('/site_vitrine', [DevisController::class, 'site_vitrine'] );
+Route::get('/site_vitrine', [DevisController::class, 'site_vitrine'])->name('site_vitrine');
 
 //Site e-commerce
-Route::get('/site_e-commerce', [DevisController::class, 'site_e_commerce'] );
+Route::get('/site_e-commerce', [DevisController::class, 'site_e_commerce'] )->name('site_e_commerce');
 
 //Logiciel
 
