@@ -30,13 +30,13 @@
 <!-- ========== End formation ========== -->
 
 <!-- ========== Start maketing section ========== -->
-<section class="container py-5 my-2 my-md-4 my-lg-5 m" id="why">
+<section class="container py-5 my-2 my-md-4 my-lg-5 p-3" id="why">
   <div class="row">
     <div class="col-md-6">
       <h1>Marketing et <br> Communication digital</h1>
       <p style="text-align: justify;">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide thEnver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.e best service for those of you who use our services.</p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 " id="chineGroup">
       <div class="attendant">
         <img src="{{asset('assets/img/Rectangle 9541.png')}}" id="cardrer" class="mb-5" alt="profession">
         <img src="{{asset('assets/img/concept-marketing-medias-sociaux-pour-marketing-applications_23-2150063140 (1).jpg')}}" class="blockchain " alt="website">
@@ -75,7 +75,7 @@
       <h1>Suites <br> Bureautiques</h1>
       <p style="text-align: justify;">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide thEnver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.e best service for those of you who use our services.</p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6" id="chineGroup">
       <div class="attendant">
         <img src="{{asset('assets/img/Rectangle 9541.png')}}" id="cardrer" class="mb-5" alt="profession">
         <img src="{{asset('assets/img/concept-marketing-medias-sociaux-pour-marketing-applications_23-2150063140 (1).jpg')}}" class="blockchain " alt="website">
@@ -110,7 +110,7 @@
 <section class="container py-5 my-2 my-md-4 my-lg-5 " id="why">
     <div class="mb-5 ">
       <h2 class="text-center fs-3">Vous avez besoin d’autres formations ?</h2>
-      <a class="btn btn-outline-primary btn-sm offset-md-5 mb-5 fs-5"  href="contactt" role="button">contacter-nous </a>
+      <a class="btn btn-outline-primary btn-sm offset-md-5 mb-5 fs-5" id="contactt" href="contactt" role="button">contacter-nous </a>
     </div>
   </section>
 @endsection
