@@ -31,6 +31,7 @@
 
     <!-- Main Theme Styles + Bootstrap -->
     <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/devis.css')}}">
 
     <!-- Page loading styles -->
     <style>
@@ -143,6 +144,9 @@
       '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-WKV3GT5');
     </script>
+
+
+
   </head>
 
 

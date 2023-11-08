@@ -1,0 +1,445 @@
+.text_devis {
+    /* Voulez-vous un devis ? */
+
+    position: absolute;
+    width: 544px;
+    height: 192px;
+    left: 240px;
+    top: 202px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+
+
+}
+
+.contact {
+    /* Group 162555 */
+
+    position: absolute;
+    width: 157px;
+    height: 44px;
+    left: 240px;
+    top: 464px;
+
+
+
+    /* BG */
+
+    position: absolute;
+    left: 16.67%;
+    right: 72.43%;
+    top: 24.88%;
+    bottom: 72.76%;
+
+    background: #3461AB;
+    border: 2px solid #3461AB;
+    backdrop-filter: blur(1px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 5px;
+
+
+    /* Get Beta Access */
+
+    position: absolute;
+    height: 24px;
+    left: 17.22%;
+    right: 72.99%;
+    top: calc(50% - 24px/2 - 446.5px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.500211px;
+
+    color: #FFFFFF;
+
+
+}
+
+#cadre1 {
+    position: relative;
+    width: 50px;
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    background-color: #3461AB;
+
+}
+
+
+#cadre2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 359px;
+    top: 2173px;
+
+    background: #3461AB;
+}
+
+.checkbox {
+
+
+    /* check */
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 672px;
+    top: 1022px;
+
+    /* Vector */
+
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 25%;
+    bottom: 29.17%;
+
+    border: 2px solid #3461AB;
+
+
+}
+
+#get_devis h2 {
+    /* Demandez un devis */
+
+    position: absolute;
+    width: 469px;
+    height: 56px;
+    left: 563px;
+    top: 763px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+
+
+    color: #000000;
+
+
+}
+
+@media screen and (min-width: 768px) {
+    #get_devis {
+        margin-left: 20%;
+    }
+
+    .afterGetDevis {
+        position: absolute;
+        width: 964px;
+        height: 78px;
+        left: 200px;
+        top: 856px;
+        line-height: 39px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #get_devis {
+        margin-left: 10%;
+    }
+
+    .afterGetDevis {
+        position: absolute;
+        width: 100%;
+        height: 78px;
+        left: 0px;
+        top: 500px;
+        line-height: 25px;
+    }
+}
+
+.input_cadre {
+    /* Group 53 */
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 519px;
+    top: 1083px;
+
+
+
+}
+
+.afterGetDevis {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    text-align: center;
+    letter-spacing: -0.656526px;
+
+    color: #000000;
+
+
+}
+
+#monsieur {
+
+
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 734px;
+    top: 1022px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1966B3;
+
+
+}
+
+#madame {
+
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 576px;
+    top: 1022px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1966B3;
+
+
+}
+
+.container-polygone {
+
+    position: relative;
+    width: 200px;
+    /* Ajustez la largeur au besoin */
+    height: 800px;
+    /* Ajustez la hauteur au besoin */
+
+}
+
+.polygones {
+    /* Group 162528 */
+
+    position: absolute;
+    width: 104.66px;
+    height: 120.07px;
+    left: -39px;
+    top: 610px;
+
+
+}
+
+#polygone2 {
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -33.4px;
+    top: 666.01px;
+
+    border: 1px solid #3461AB;
+    transform: rotate(-28.66deg);
+}
+
+
+#polygone1 {
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -39px;
+    top: 645.01px;
+
+    border: 3px solid #3461AB;
+    transform: rotate(-28.66deg);
+}
+
+.quiz_header {
+
+
+    position: absolute;
+    width: 1440px;
+    height: 304px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url(concept-controle-qualite-standard-m_23-2150041864.jpg);
+
+}
+
+
+.logiciel_polygones {
+    position: absolute;
+    width: 104.66px;
+    height: 120.07px;
+    left: -23px;
+    top: 304px;
+
+
+}
+
+.logiciel_polygone1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -23px;
+    top: 339.01px;
+
+    border: 3px solid #3461AB;
+    transform: rotate(-28.66deg);
+}
+
+.logiciel_polygone2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    left: -17.41px;
+    top: 360.01px;
+
+    border: 1px solid #3461AB;
+    transform: rotate(-28.66deg);
+
+}
+
+.quiz_case {
+
+    position: absolute;
+    width: 1080px;
+    height: 615px;
+    left: 180px;
+    top: 389px;
+
+    background: #FFFFFF;
+    border-radius: 26px;
+
+}
+
+
+.separate {
+
+    position: absolute;
+    width: 1001px;
+    height: 12px;
+    left: 222px;
+    top: 494px;
+
+    background: #F6F6F6;
+    border-radius: 26px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+.choice-quiz-case {
+    /* Group 162565 */
+
+    position: absolute;
+    width: 1001px;
+    height: 74px;
+    left: 222px;
+    top: 784px;
+
+
+
+    /* Rectangle 9563 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1001px;
+    height: 74px;
+    left: 222px;
+    top: 858px;
+
+    background: #F6F6F6;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+    /* Create custom landin */
+
+    position: absolute;
+    width: 154px;
+    height: 39px;
+    left: 307px;
+    top: 802px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: -0.656526px;
+
+    color: #3B3A3A;
+
+
+
+    /* Ellipse 59 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 250px;
+    top: 806px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(108, 117, 125, 0.8);
+
+
+    /* Ellipse 61 */
+
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 254px;
+    top: 810px;
+
+    background: #3461AB;
+
+}

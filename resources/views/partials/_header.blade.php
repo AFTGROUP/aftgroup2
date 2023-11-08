@@ -29,7 +29,7 @@
               <a href="/formations" class="nav-link">Nos Formations</a>
             </li>
             <li class="nav-item">
-              <a href="/devis" class="nav-link">Demander un devis</a>
+              <a href="{{route('devis')}}" class="nav-link">Demander un devis</a>
             </li>
           </ul>
         </div>
