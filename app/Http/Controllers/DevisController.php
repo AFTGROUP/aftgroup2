@@ -8,21 +8,43 @@ class DevisController extends Controller
 {
     //
 
-    public function index(){
+    public function index()
+    {
 
         return view('devis');
     }
-    public function question0(){
+    public function question0(Request $request)
+    {
 
-        return view('devis-question0');
+        $data = $request;
+        return view('devis-question0', compact('data'));
     }
 
-    public function choice(Request $request){
+    public function choice(Request $request)
+    {
 
-        dd($request);
+        //  dd($request);
+
+        $choice = $request->choice;
+
+        if ($choice === 'logiciel') {
+            return response()->json(['redirect' => route('logiciel')]);
+        } elseif ($choice === 'e-commerce') {
+            return response()->json(['redirect' => route('site_e_commerce')]);
+        } elseif ($choice === 'site_vitrine') {
+            return response()->json(['redirect' => route('site_vitrine')]);
+        }
+    
+        return response()->json(['message' => 'Choix invalide']);
     }
 
-    public function userData(){
 
+    public function site_e_commerce()
+    {
+    }
+
+    public function logiciel()
+    {
+        return view('logiciel');
     }
 }

@@ -123,30 +123,41 @@
         }
     </style>
 
-    <div class="container box-question p-5">
-        <h3>QUESTION 0</h3>
+    <form action="{{ route('choice') }}" method="POST">
+        @csrf
+        <div class="container box-question p-5">
+            <h3>QUESTION 0</h3>
 
-        <div class="form-group" action="{{ route('choice') }}" method=>
-            <label><b>Quel type de site internet souhaitez-vous ?</b></label>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="choice" id="optionA" value="site_vitrine">
-                <label class="custom-control-label" for="optionA">Site vitrine</label>
+            <div class="form-group">
+                <label><b>Quel type de site internet souhaitez-vous ?</b></label>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="choice" id="optionA" value="site_vitrine">
+                    <label class="custom-control-label" for="optionA">Site vitrine</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="choice" id="optionB" value="e-commerce">
+                    <label class="custom-control-label" for="optionB">Site e-commerce</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" type="radio" name="choice" id="optionC" value="logiciel">
+                    <label class="custom-control-label" for="optionC">Logiciel / Mobile</label>
+                </div>
             </div>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="choice" id="optionB" value="e-commerce">
-                <label class="custom-control-label" for="optionB">Site e-commerce</label>
+            <br><br>
+            <div class="mb-5 d-flex justify-content-end">
+                <button  class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
+
             </div>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="choice" id="optionC" value="logiciel">
-                <label class="custom-control-label" for="optionC">Logiciel / Mobile</label>
-            </div>
-        </div>
-        <br><br>
-        <div class="mb-5 d-flex justify-content-end">
-            <button type="submit" class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
-        </div>
-    </div>
-    </div>
+    </form>
+
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
+    <div class="mt-5"></div>
     <div class="mt-5"></div>
     <div class="mt-5"></div>
     <div class="mt-5"></div>
@@ -157,4 +168,27 @@
     <div class="mt-5"></div>
     <div class="mt-5"></div>
     </section>
+
+    <script>
+        $('form').submit(function(e) {
+            e.preventDefault();
+        
+            $.ajax({
+                type: 'POST',
+                url: '{{ route('choice') }}',
+                data: $('form').serialize(),
+                dataType: 'json',
+                success: function(response) {
+                    if (response.redirect) {
+                        // Redirigez l'utilisateur en fonction de la réponse JSON.
+                        window.location.href = response.redirect;
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.log(error); // Gérez les erreurs si nécessaire.
+                }
+            });
+        });
+        
+    </script>
 @endsection
