@@ -53,4 +53,8 @@ class DevisController extends Controller
     public function site_vitrine(){
         return view('site_vitrine');
     }
+
+    public function estimation(){
+        return view('estimation');
+    }
 }

@@ -35,6 +35,7 @@ Route::get('/apropos', function () {
 });
 
 Route::get('/devis', [DevisController::class, 'index'])->name('devis');
+Route::get('/estimation', [DevisController::class, 'estimation'])->name('estimation');
 
 //Logiciels/Application
 Route::get('/prixLogicielApplication', function() {
