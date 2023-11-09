@@ -56,8 +56,6 @@
         font-weight: 600;
         font-size: 40px;
         line-height: 140%;
-
-
         color: #000000;
 
 
@@ -87,7 +85,7 @@
         width: 31px;
         height: 31px;
         left: 690px;
-        top: 910px;
+        top: 900px;
 
         background: #FFFFFF;
         border: 1px solid #6C757D;
@@ -103,7 +101,7 @@
         width: 31px;
         height: 31px;
         left: 850px;
-        top: 910px;
+        top: 900px;
 
         background: #FFFFFF;
         border: 1px solid #6C757D;
@@ -132,24 +130,24 @@
     .input_form {
 
         box-sizing: border-box;
-         width: 400px;
-         height: 50px;
-         /* left: calc(50% - 400px/2 - 1px); */
-         border: 2px solid #3461AB;
-         border-radius: 5px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
+        width: 400px;
+        height: 50px;
+        /* left: calc(50% - 400px/2 - 1px); */
+        border: 2px solid #3461AB;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         align-items: center;
 
-     }
+    }
 
-     #monsieur {
+    #monsieur {
         position: absolute;
         width: 68px;
         height: 23px;
         left: 750px;
-        top: 920px;
+        top: 910px;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -172,7 +170,7 @@
         width: 68px;
         height: 23px;
         left: 600px;
-        top: 920px;
+        top: 910px;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -188,9 +186,17 @@
 
     }
 
+    .input_nom {
+        margin-top: 15%;
+    }
 
-
-
+    .submit_demande {
+        width: 400px;
+        height: 50px;
+        background: #3461AB;
+        border-radius: 10px;
+        margin-bottom: 10%;
+    }
 
 }
 
@@ -248,17 +254,17 @@
     .input_form {
 
         box-sizing: border-box;
-         width: 100%;
-         height: 50px;
-         /* left: calc(50% - 400px/2 - 1px); */
-         border: 2px solid #3461AB;
-         border-radius: 5px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
+        width: 100%;
+        height: 50px;
+        /* left: calc(50% - 400px/2 - 1px); */
+        border: 2px solid #3461AB;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         align-items: center;
 
-     }
+    }
 }
 
 .afterGetDevis {
@@ -288,8 +294,3 @@
     /* background: #E20044; */
 
 }
-
-
-
-
-
