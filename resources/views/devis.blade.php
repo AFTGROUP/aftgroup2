@@ -74,7 +74,7 @@
         <div class=" rounded-3 py-5 px-3 px-sm-4 px-lg-0">
             <div class="row justify-content-center align-items-center pt-1 pb-2 py-lg-4">
                 <div class="col-xl-7 col-lg-8 col-md-6 offset-lg-1 mb-4 pb-3 mb-md-0 pb-md-0 ">
-                    <div class="row justify-content-center align-items-center mb-5 ">
+                    <div class="row justify-content-center align-items-center  ">
                         <div class="d-flex ">
                             <span>
                                 <div class="cadres">
@@ -86,67 +86,75 @@
                                 <p class="h1 text-center ">Demandez un devis</p>
                             </span>
                         </div>
+                        <div class=" col-12">
+                            <p class="text-justify text-center mt-5">Parlez-nous davantage de votre projet
+                                et de vos
+                                besoins en répondant en
+                                quelques secondes à un petit questionnaire en fonction de ce que vous
+                                désirez.</p>
+                        </div>
                     </div>
 
 
-                    <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center">Parlez-nous davantage de votre projet et de vos
-                        besoins en répondant en
-                        quelques secondes à un petit questionnaire en fonction de ce que vous
-                        désirez.</p>
-
-                    <form action="{{route('devis_question')}}" method="post">
+                    <form action="{{ route('devis_question') }}" method="post" class="">
                         @csrf
                         <div class="row justify-content-center align-items-center ">
                             <div class="d-flex ">
-                                <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="madame"
-                                        for="inlineCheckbox2">Madame</label>
-                                    <input class="form-check-input checkbox1"  name="genre" type="checkbox" id="inlineCheckbox2"
-                                        value="madame">
+                                <div class="form-check form-check-inline m-auto">
+                                    <label class="form-check-label " id="madame" for="inlineCheckbox2">Madame</label>
+                                    <input class="form-check-input checkbox1" name="genre" type="checkbox"
+                                        id="inlineCheckbox2" value="madame">
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="monsieur"
-                                        for="inlineCheckbox1">Monsieur</label>
-                                    <input class="form-check-input checkbox2"  name="genre" type="checkbox" id="inlineCheckbox1"
-                                        value="monsieur">
+                                    <label class="form-check-label " id="monsieur" for="inlineCheckbox1">Monsieur</label>
+                                    <input class="form-check-input checkbox2" name="genre" type="checkbox"
+                                        id="inlineCheckbox1" value="monsieur">
                                 </div>
 
                             </div>
                         </div>
 
-                        <div class="row justify-content-center align-items-center mb-4 ">
+                        <div class="row justify-content-center align-items-center mb-3  mt-4">
 
-                            <div class="mb-3">
-                                <input type="text" class="form-control input_form mt-4 input_nom" name="nom" id="" placeholder="Nom"
-                                    aria-describedby="emailHelp">
+                            <div class=" col-md-12 col-lg-6 col-xs-12">
+                                <input type="text" class="form-control input_form input_nom" name="nom"
+                                    id="" placeholder="Nom" aria-describedby="emailHelp">
                             </div>
+                        </div>
 
-                            <div class="mb-3 ">
-                                <input type="text" class="form-control input_form mt-2 input_prenom"  name="prenom" id=""
-                                    placeholder="Prénom" aria-describedby="emailHelp">
+                        <div class="row justify-content-center align-items-center mb-3 ">
+
+                            <div class=" col-md-12 col-lg-6 col-xs-12 ">
+                                <input type="text" class="form-control input_form  input_prenom" name="prenom"
+                                    id="" placeholder="Prénom" aria-describedby="emailHelp">
                             </div>
+                        </div>
 
-                            <div class="mb-3">
-                                <input type="email" class="form-control input_form mt-2" name="email" id="" placeholder="Email"
-                                    aria-describedby="emailHelp">
+                        <div class="row justify-content-center align-items-center mb-3 ">
+                            <div class=" col-md-12 col-lg-6 col-xs-12">
+                                <input type="email" class="form-control input_form " name="email" id=""
+                                    placeholder="Email" aria-describedby="emailHelp">
                             </div>
+                        </div>
 
-                            <div class="mb-3 form-check px-4">
+                        <div class="row justify-content-center align-items-center mb-3 ">
+                            <div class="ms-5 col-md-12 col-lg-5 col-xs-12 mb-3 form-check  ">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Politique d&apos;utilisation et de
                                     confidentialité</label>
                             </div>
-                            <div class="mb-3">
-
-                                <button type="submit" class="btn btn-primary w-50">Demande de devis</button>
-                            </div>
-
-
-
-
                         </div>
+                        <div class="mb-3">
 
-                        <br><br>
+                            <button type="submit" class="btn btn-primary w-50">Demande de devis</button>
+                        </div>
+                    </form>
+
+
+
+
+
+                    <br><br>
 
 
                 </div>
