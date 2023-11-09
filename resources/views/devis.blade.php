@@ -117,17 +117,17 @@
                         <div class="row justify-content-center align-items-center mb-4 ">
 
                             <div class="mb-3">
-                                <input type="text" class="form-control " name="nom" id="" placeholder="Nom"
+                                <input type="text" class="form-control input_form mt-4 input_nom" name="nom" id="" placeholder="Nom"
                                     aria-describedby="emailHelp">
                             </div>
 
                             <div class="mb-3 ">
-                                <input type="text" class="form-control " name="prenom" id=""
+                                <input type="text" class="form-control input_form mt-2 input_prenom"  name="prenom" id=""
                                     placeholder="Prénom" aria-describedby="emailHelp">
                             </div>
 
                             <div class="mb-3">
-                                <input type="email" class="form-control" name="email" id="" placeholder="Email"
+                                <input type="email" class="form-control input_form mt-2" name="email" id="" placeholder="Email"
                                     aria-describedby="emailHelp">
                             </div>
 

@@ -26,27 +26,6 @@
 
 
 
-#cadre1 {
-    position: relative;
-    width: 50px;
-    height: 49px;
-    left: 0px;
-    top: 0px;
-    background-color: #3461AB;
-
-}
-
-
-#cadre2 {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 350px;
-    top: 712px;
-
-    background: #3461AB;
-}
-
 
 /* Format pc */
 
@@ -131,6 +110,26 @@
 
     }
 
+    #cadre1,
+    #cadre2 {
+        width: 50px;
+        height: 50px;
+        background-color: #3461AB;
+    }
+
+    #cadre1 {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #cadre2 {
+        position: absolute;
+        left: 350px;
+        top: 712px;
+    }
+
+
 }
 
 /* Format téléphone */
@@ -155,7 +154,7 @@
         width: 469px;
         height: 56px;
         left: 0px;
-        top: 390px;
+        top: 360px;
 
         font-family: 'Poppins';
         font-style: normal;
@@ -164,16 +163,25 @@
         line-height: 140%;
         color: #000000;
     }
-}
 
-.input_cadre {
-    /* Group 53 */
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    left: 519px;
-    top: 1083px;
+    #cadre1,
+    #cadre2 {
+        width: 30px;
+        height: 30px;
+        background-color: #3461AB;
+    }
 
+    #cadre1 {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    #cadre2 {
+        position: absolute;
+        left: 20px;
+        top: 360px;
+    }
 }
 
 .afterGetDevis {
@@ -234,120 +242,7 @@
 
 }
 
-.polygones {
 
-    position: absolute;
-    width: 104.66px;
-    height: 120.07px;
-    left: -29px;
-    top: 1103px;
-
-}
-
-#polygone2 {
-
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    left: -23.4px;
-    top: 1159.01px;
-
-    border: 1px solid #3461AB;
-    transform: rotate(-28.66deg);
-}
-
-
-#polygone1 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    left: -29px;
-    top: 1138.01px;
-
-    border: 3px solid #3461AB;
-    transform: rotate(-28.66deg);
-}
-
-.quiz_header {
-    position: absolute;
-    width: 1440px;
-    height: 304px;
-    left: 0px;
-    top: 0px;
-
-    background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url(concept-controle-qualite-standard-m_23-2150041864.jpg);
-
-}
-
-
-.logiciel_polygones {
-    position: absolute;
-    width: 104.66px;
-    height: 120.07px;
-    left: -23px;
-    top: 304px;
-
-
-}
-
-.logiciel_polygone1 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    left: -23px;
-    top: 339.01px;
-
-    border: 3px solid #3461AB;
-    transform: rotate(-28.66deg);
-}
-
-.logiciel_polygone2 {
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 73px;
-    height: 73px;
-    left: -17.41px;
-    top: 360.01px;
-
-    border: 1px solid #3461AB;
-    transform: rotate(-28.66deg);
-
-}
-
-.quiz_case {
-
-    position: absolute;
-    width: 1080px;
-    height: 615px;
-    left: 180px;
-    top: 389px;
-
-    background: #FFFFFF;
-    border-radius: 26px;
-
-}
-
-
-.separate {
-
-    position: absolute;
-    width: 1001px;
-    height: 12px;
-    left: 222px;
-    top: 494px;
-
-    background: #F6F6F6;
-    border-radius: 26px;
-    transform: matrix(1, 0, 0, -1, 0, 0);
-
-}
 
 .choice-quiz-case {
     /* Group 162565 */
@@ -436,24 +331,15 @@
     /* Rectangle 38 */
 
     box-sizing: border-box;
-
-    position: absolute;
     width: 400px;
     height: 50px;
     left: calc(50% - 400px/2 - 1px);
-
-
     border: 2px solid #3461AB;
     border-radius: 5px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.input_nom
-{
-    top: 980px;
-}
 
-
-.input_prenom{
-    top: 995px;
-}
