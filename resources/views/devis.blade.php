@@ -144,7 +144,7 @@
                                     confidentialité</label>
                             </div>
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3 ">
 
                             <button type="submit" class="btn btn-primary w-50 submit_demande">Demande de devis</button>
                         </div>
