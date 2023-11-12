@@ -35,17 +35,15 @@ Route::get('/apropos', function () {
 });
 
 Route::get('/devis', [DevisController::class, 'index'])->name('devis');
-Route::get('/estimation', [DevisController::class, 'estimation'])->name('estimation');
+// Route::get('/estimationSiteVitrine', [DevisController::class, 'estimationSiteVitrine'])->name('estimationSiteVitrine');
+// Route::get('/estimationSiteEcommmerce', [DevisController::class, 'estimationSiteEcommmerce'])->name('estimationSiteEcommmerce');
 
-//Logiciels/Application
-Route::get('/prixLogicielApplication', function() {
 
-    return view('prixLogicielApplication');
 
+Route::get('/devis-question', function () {
+    return view('devis-question0');
 });
-
 Route::post('/devis-question', [DevisController::class, 'question0'])->name('devis_question');
-Route::post('/choice', [DevisController::class, 'choice'])->name('choice');
 
 
 //Site vitrine
@@ -53,12 +51,14 @@ Route::post('/choice', [DevisController::class, 'choice'])->name('choice');
 Route::get('/site_vitrine', [DevisController::class, 'site_vitrine'])->name('site_vitrine');
 
 //Site e-commerce
-Route::get('/site_e-commerce', [DevisController::class, 'site_e_commerce'] )->name('site_e_commerce');
+Route::get('/site_e-commerce', [DevisController::class, 'site_e_commerce'])->name('site_e_commerce');
 
 //Logiciel
 
 Route::get('/logiciel', [DevisController::class, 'logiciel'])->name('logiciel');
 
+
+Route::post('/siteEcommerce_choice', [DevisController::class, 'siteEcommerce_choice'])->name('siteEcommerce_choice');
 
 
 Auth::routes();

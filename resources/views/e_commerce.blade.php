@@ -123,8 +123,12 @@
         }
     </style>
 
-   
-        <section class="container box-question p-5 " id="section1">
+
+    <form id="myForm" method="POST" action="{{ route('siteEcommerce_choice') }}">
+        @csrf
+
+
+        <section class="container box-question p-5 suivant" id="section1">
             <h3>QUESTION 1 sur 5</h3>
 
             <div class="form-group">
@@ -134,19 +138,20 @@
                     <label class="custom-control-label" for="type_site">Prestashop</label>
                 </div>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="type_site" id="Personnalise" value="Personnalisé">
+                    <input class="custom-control-input" type="radio" name="type_site" id="Personnalise"
+                        value="Personnalisé">
                     <label class="custom-control-label" for="Personnalise">Personnalisé</label>
                 </div>
 
             </div>
             <br><br>
             <div class="mb-5 d-flex justify-content-end">
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(2)">Suivant </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(2)">Suivant </button>
 
             </div>
 
         </section>
-        <section class="container box-question p-5 " id="section2" style="display: none;">
+        <section class="container box-question p-5 suivant" id="section2" style="display: none;">
             <h3>QUESTION 2 sur 5</h3>
 
             <div class="form-group">
@@ -164,17 +169,18 @@
             <br><br>
             <div class="mb-5 d-flex">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(1)">Retour </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(1)">Retour
+                </button>
 
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(3)">Suivant </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(3)">Suivant </button>
 
             </div>
 
         </section>
-        <section class="container box-question p-5 " id="section3" style="display: none;">
+        <section class="container box-question p-5 suivant" id="section3" style="display: none;">
             <h3>QUESTION 3 sur 5</h3>
 
             <div class="form-group">
@@ -198,23 +204,25 @@
             <br><br>
             <div class="mb-5 d-flex">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(2)">Retour </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(2)">Retour
+                </button>
 
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(4)">Suivant </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(4)">Suivant </button>
 
             </div>
 
         </section>
-        <section class="container box-question p-5 " id="section4" style="display: none;">
+        <section class="container box-question p-5 suivant" id="section4" style="display: none;">
             <h3>QUESTION 4 sur 5</h3>
 
             <div class="form-group">
                 <label><b>Optimisation au référencement ?</b></label>
                 <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="referencement" id="referencementA" value="oui">
+                    <input class="custom-control-input" type="radio" name="referencement" id="referencementA"
+                        value="oui">
                     <label class="custom-control-label" for="referencementA">Oui</label>
                 </div>
                 <div class="custom-control custom-radio">
@@ -227,97 +235,92 @@
             <br><br>
             <div class="mb-5 d-flex">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(3)">Retour </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(3)">Retour
+                </button>
 
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(5)">Suivant </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="nextSection(5)">Suivant
+                </button>
 
             </div>
 
         </section>
-        <section class="container box-question p-5 " id="section5" style="display: none;">
+        <section class="container box-question p-5 suivant" id="section5" style="display: none;">
             <h3>QUESTION 5 sur 5</h3>
 
             <div class="form-group">
                 <label><b>Choix du système de payement en ligne ?</b></label>
                 <div class="custom-control custom-radio">
                     <input class="custom-control-input" type="radio" name="moyen_paiement" id="moyen_paiementA"
-                        value="portefeuille">
-                    <label class="custom-control-label" for="moyen_paiementA">Portefeuille électronique : Mobile Money, Moov
+                        value="Portefeuille électronique : Mobile Money, Moov Money, Celtiis Cash . . .">
+                    <label class="custom-control-label" for="moyen_paiementA">Portefeuille électronique : Mobile Money,
+                        Moov
                         Money, Celtiis Cash . . .</label>
                 </div>
                 <div class="custom-control custom-radio">
                     <input class="custom-control-input" type="radio" name="moyen_paiement" id="moyen_paiementB"
-                        value="carte_bancaire">
-                    <label class="custom-control-label" for="moyen_paiemen.B">Carte bancaire + Portefeuille éléctronique</label>
+                        value="Carte bancaire + Portefeuille">
+                    <label class="custom-control-label" for="moyen_paiementB">Carte bancaire + Portefeuille
+                        éléctronique</label>
                 </div>
 
             </div>
             <br><br>
             <div class="mb-5 d-flex">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(4)">Retour </button>
+                <button type="button" class="btn btn-primary ml-auto p-2 w-25" onclick="previousSection(4)">Retour
+                </button>
 
             </div>
             <div class="mb-5 d-flex justify-content-end">
 
-                <button class="btn btn-primary ml-auto p-2 w-25" onclick="showSummary()"> Terminer </button>
+                <button  class="btn btn-primary ml-auto p-2 w-25" onclick="showSummary()"> Terminer
+                </button>
 
             </div>
 
         </section>
-   
 
-    <div id="summary" style="display: none;">
-        <h2>Résumé</h2>
-        <p>Données choisies :</p>
-        <div id="summaryData"></div>
-        <button onclick="previousSection(3)">Retour</button>
-    </div>
-    <pre>
+    </form>
 
-
-
-
-
-
-  </pre>
-
-
-    </section>
 
     <script>
+
         let formData = {};
         let currentSection = 1;
 
         function nextSection(sectionNumber) {
-            // Enregistrez les données de la section actuelle ici (formData) avant de passer à la suivante.
             currentSection = sectionNumber;
-            // Affichez la section suivante et masquez la précédente.
+
             document.getElementById('section' + sectionNumber).style.display = 'block';
             document.getElementById('section' + (sectionNumber - 1)).style.display = 'none';
         }
 
         function previousSection(sectionNumber) {
-            // Affichez la section précédente et masquez la section actuelle.
+
             document.getElementById('section' + sectionNumber).style.display = 'block';
             document.getElementById('section' + currentSection).style.display = 'none';
             currentSection = sectionNumber;
         }
 
         function showSummary() {
-            const summaryDataElement = document.getElementById('summaryData');
-            summaryDataElement.innerHTML = ''; // Effacez le contenu précédent
-        
-            for (const key in formData) {
-                const dataItem = document.createElement('p');
-                dataItem.textContent = key + ': ' + formData[key];
-                summaryDataElement.appendChild(dataItem);
-            }
-        
-            document.getElementById('summary').style.display = 'block';
+            const form = document.getElementById('myForm');
+
+            let xhr = new XMLHttpRequest();
+            xhr.open('POST', '{{ route('siteEcommerce_choice') }}', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+
+                    console.log(xhr.responseText);
+                }
+            };
+
+            let jsonData = JSON.stringify(formData);
+
+            xhr.send(jsonData);
         }
     </script>
 @endsection

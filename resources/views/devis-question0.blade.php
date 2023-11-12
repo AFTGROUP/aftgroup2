@@ -113,7 +113,6 @@
             position: relative;
             /* Pour empiler le contenu sur l'arrière-plan */
             z-index: 1;
-            /* Assurez-vous que le contenu est au premier plan */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -123,63 +122,54 @@
         }
     </style>
 
-    <form action="{{ route('choice') }}" method="POST">
-        @csrf
-        <div class="container box-question p-5">
-            <h3>QUESTION 0</h3>
 
-            <div class="form-group">
-                <label><b>Quel type de site internet souhaitez-vous ?</b></label>
-                <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="choice" id="optionA" value="site_vitrine">
-                    <label class="custom-control-label" for="optionA">Site vitrine</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="choice" id="optionB" value="e-commerce">
-                    <label class="custom-control-label" for="optionB">Site e-commerce</label>
-                </div>
-                <div class="custom-control custom-radio">
-                    <input class="custom-control-input" type="radio" name="choice" id="optionC" value="logiciel">
-                    <label class="custom-control-label" for="optionC">Logiciel / Mobile</label>
-                </div>
+    <div class="container box-question p-5">
+        <h3>QUESTION 0</h3>
+
+        <div class="form-group">
+            <label><b>Quel type de site internet souhaitez-vous ?</b></label>
+            <div class="custom-control custom-radio">
+                <input class="custom-control-input" type="radio" name="choice" id="choiceA" value="site_vitrine">
+                <label class="custom-control-label" for="optionA">Site vitrine</label>
             </div>
-            <br><br>
-            <div class="mb-5 d-flex justify-content-end">
-                <button class="btn btn-primary ml-auto p-2 w-25">Suivant </button>
-
+            <div class="custom-control custom-radio">
+                <input class="custom-control-input" type="radio" name="choice" id="choiceB" value="e-commerce">
+                <label class="custom-control-label" for="optionB">Site e-commerce</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input class="custom-control-input" type="radio" name="choice" id="choiceC" value="logiciel">
+                <label class="custom-control-label" for="optionC">Logiciel / Mobile</label>
             </div>
         </div>
-    </form>
-    <pre>
+        <br><br>
+        <div class="mb-5 d-flex justify-content-end">
+            <button class="btn btn-primary ml-auto p-2 w-25 suivant" onclick="redirectToSelectedRoute()">Suivant </button>
+
+        </div>
+    </div>
 
 
 
 
-
-
-  </pre>
-    </section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $('form').submit(function(e) {
-            e.preventDefault();
+        function redirectToSelectedRoute() {
+            var selectedChoice = $("input[name='choice']:checked").val();
 
-            $.ajax({
-                type: 'POST',
-                url: '{{ route('choice') }}',
-                data: $('form').serialize(),
-                dataType: 'json',
-                success: function(response) {
-                    if (response.redirect) {
-                        // Redirigez l'utilisateur en fonction de la réponse JSON.
-                        window.location.href = response.redirect;
-                    }
-                },
-                error: function(xhr, status, error) {
-                    console.log(error); // Gérez les erreurs si nécessaire.
-                }
-            });
-        });
+            // Define routes for each choice
+            var routeMapping = {
+                'site_vitrine': '{{ route("site_vitrine") }}',
+                'e-commerce': '{{ route("site_e_commerce") }}',
+                'logiciel': '{{ route("logiciel") }}'
+            };
+
+            // Get the route based on the selected choice
+            var selectedRoute = routeMapping[selectedChoice];
+
+            // Redirect to the selected route
+            window.location.href = selectedRoute;
+        }
     </script>
+
 @endsection

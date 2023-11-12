@@ -66,8 +66,8 @@
 
     <section class="container" id="devis">
         <div class=" rounded-3 py-5 px-3 px-sm-4 px-lg-0">
-            <div class="row justify-content-center align-items-center pt-1 pb-2 py-lg-4">
-                <div class="col-xl-7 col-lg-8 col-md-6 offset-lg-1 mb-4 pb-3 mb-md-0 pb-md-0 ">
+            <div class="row justify-content-center align-items-center pt-1 pb-2 ">
+                <div class="col-xl-7 col-lg-10 col-md-6 mb-4 pb-3 mb-md-0 pb-md-0 ">
 
 
 
@@ -82,11 +82,7 @@
                     <div class="mb-3 d-flex justify-content-center align-items-center">
 
                         <button type="submit" class="btn btn-primary  ">Contactez nous</button>
-                    </div> <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+                    </div>
 
                 </div>
     </section>
