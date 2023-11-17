@@ -1,62 +1,71 @@
 @extends('layouts.app')
 
+@section('styles')
+    <style>
+        .bannerSiteInternet {
+
+            width: 100%;
+            height: 304px;
+
+            background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url('{{ asset('assets/img/f3.jpg') }}');
+
+        }
+
+        .texte {
+
+            width: 882px;
+            height: 156px;
+
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 39px;
+            /* or 244% */
+            text-align: center;
+            letter-spacing: -0.656526px;
+
+            color: #000000;
+
+
+        }
+
+        .contact {
+            background: #3461AB;
+            border: 2px solid #3461AB;
+            backdrop-filter: blur(1px);
+
+            border-radius: 5px;
+
+        }
+
+        .contact span {
+            /* Get Beta Access */
+
+          
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+            text-align: center;
+            letter-spacing: -0.500211px;
+
+            color: #FFFFFF;
+
+
+        }
+    </style>
+@endsection
+
 @section('content')
-    <section class="jarallax dark-mode bg-dark  quiz-header" data-jarallax data-speed="0.4" id="accueil">
-        <span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent"></span>
-        <div class="jarallax-img quiz-header" style="background-image: url({{ asset('assets/img/f3.jpg') }});"></div>
-        <div class="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
-
-            <!-- Slider controls (Prev / next) -->
-
-
-            <!-- Slider -->
-            <div class="container text-center py-xl-5">
-                <div class="row justify-content-center pt-lg-5">
-                    <div class="col-xl-8 col-lg-9 col-md-10 col-11">
-                        <div class="swiper pt-5 pb-4 py-md-5"
-                            data-swiper-options='{
-                                    "effect": "fade",
-                                    "speed": 500,
-                                    "autoplay": {
-                                        "delay": 5500,
-                                        "disableOnInteraction": false
-                                    },
-                                    "pagination": {
-                                        "el": ".swiper-pagination",
-                                        "clickable": true
-                                    },
-                                    "navigation": {
-                                        "prevEl": "#hero-prev",
-                                        "nextEl": "#hero-next"
-                                    }
-                                    }'>
-                            <div class="swiper-wrapper">
-
-                                <!-- Item -->
-                                <div class="swiper-slide ">
-                                    <span>
-                                        <h2 class=" from-start text-start">Quel prix pour un logiciel ou application ?</h2>
-                                    </span>
-
-                                </div>
-
-                                <!-- Item -->
-
-
-                                <!-- Item -->
-
-                            </div>
-
-                            <!-- Pagination (bullets) -->
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="bannerSiteInternet">
+        <div class="content">
+            <h3 class="text-light text-center site_internet">Quel prix pour un site internet professionnel ?</h3>
         </div>
-
-    </section>
-
+    </div>
     <div>
         <div class="logiciel_polygones"> </div>
         <div id="logiciel_polygone1"></div>
@@ -71,7 +80,7 @@
 
 
 
-                    <p class="pb-2 pb-md-4 pb-lg-5 text-justify text-center">PAvez-vous le projet de renforcer
+                    <p class="texte">PAvez-vous le projet de renforcer
                         l&apos;efficacité opérationnelle de votre
                         entreprise, de développer un logiciel de gestion de qualité ou une
                         application novatrice ?
@@ -81,9 +90,14 @@
 
                     <div class="mb-3 d-flex justify-content-center align-items-center">
 
-                        <button type="submit" class="btn btn-primary  ">Contactez nous</button>
+                        <button type="submit" class="contact  "><span>Contactez nous</span></button>
                     </div>
 
                 </div>
     </section>
+    <pre>
+
+
+
+    </pre>
 @endsection

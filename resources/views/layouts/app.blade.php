@@ -35,6 +35,8 @@
     <link rel="stylesheet" media="screen" href="assets/css/form.css">
     <link rel="stylesheet" href="{{asset('assets/css/devis.css')}}">
 
+    @yield('styles')
+
     <!-- Page loading styles -->
     <style>
       .page-loading {

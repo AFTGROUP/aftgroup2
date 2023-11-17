@@ -1,143 +1,43 @@
 @extends('layouts.app')
 
+
+@section('styles')
+    <style>
+        .bannerSiteInternet {
+
+            width: 100%;
+            height: 304px;
+
+            background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url('{{ asset('assets/img/f3.jpg') }}');
+
+        }
+    </style>
+@endsection
+
 @section('content')
-    <div class="banner">
+    <div class="bannerSiteInternet">
         <div class="content">
-            <h3 class="text-light text-center">Quel est le prix pour un site professionnel</h3>
+            <h3 class="text-light text-center site_internet">Quel prix pour un site internet professionnel ?</h3>
         </div>
     </div>
 
 
 
-    <style>
-        /* Increase the font size and add padding to the label */
-        .form-group label {
-            font-size: 20px;
-            padding: 12px;
-        }
-
-        /* Style the form-check containers (background, border, padding, and border-radius) */
-        .form-group .custom-control {
-            border: 0.5px solid rgba(255, 255, 255, 0.837);
-            /* Adjust border width as needed */
-            padding: 10px;
-            background-color: white;
-            border-radius: 30px;
-            margin-bottom: 10px;
-            /* Add spacing between options */
-        }
-
-        /* Style the radio input (padding and margin) */
-        .form-group input[type='radio'] {
-            margin-left: 10px;
-            padding: 10px;
-            height: 10px;
-        }
-
-        /* Style des boutons radio */
-        .custom-control-input[type="radio"] {
-            appearance: none;
-            /* Supprime le style par défaut du navigateur */
-            -webkit-appearance: none;
-            /* Pour les navigateurs WebKit */
-            -moz-appearance: none;
-            /* Pour les navigateurs basés sur Gecko */
-            width: 15px;
-            /* Largeur du bouton radio */
-            height: 5px;
-            /* Hauteur du bouton radio */
-            border: 1px solid blue;
-            /* Couleur de la bordure */
-            border-radius: 50%;
-            /* Rend le bouton radio circulaire */
-            background-color: #fff;
-            /* Couleur de fond du bouton radio */
-            margin-right: 2px;
-            /* Marge à droite pour séparer les boutons */
-            cursor: pointer;
-            /* Curseur de type pointeur pour indiquer que le bouton est cliquable */
-        }
-
-        /* Style des boutons radio lorsqu'ils sont cochés */
-        .custom-control-input[type="radio"]:checked {
-            background-color: blue;
-            /* Couleur de fond lorsque le bouton est coché */
-        }
-
-        /* Style des labels associés aux boutons radio */
-        .custom-control-label {
-            cursor: pointer;
-            /* Curseur de type pointeur pour indiquer que le label est cliquable */
-            margin-bottom: 5px;
-            /* Marge en bas pour espacer les labels */
-        }
-
-        .box-question {
-            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .banner {
-            background-image: url('assets/img/services/femme-travaillant-ordinateur.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            text-align: center;
-            color: white;
-            position: relative;
-            /* Ajout de position relative */
-        }
-
-        .banner::before {
-            content: '';
-            position: absolute;
-            /* Utilisation de position absolute pour le pseudo-élément */
-            top: 0;
-            width: 100%;
-            left: 0;
-            height: 100%;
-            background-color: blue;
-            opacity: 0.5;
-            z-index: 1;
-            /* Utilisation de z-index pour placer l'arrière-plan sous le contenu */
-        }
-
-        .banner .content {
-            position: relative;
-            /* Pour empiler le contenu sur l'arrière-plan */
-            z-index: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            text-align: center;
-            /* Centrer le texte à l'intérieur de la div */
-        }
-    </style>
-
-
-    <div class="container box-question p-5">
-        <h3>QUESTION 0</h3>
+    <div class="container box-question p-5 mt-5">
+        <h3 id="quiz0">QUESTION 0</h3>
 
         <div class="form-group">
-            <label><b>Quel type de site internet souhaitez-vous ?</b></label>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="choice" id="choiceA" value="site_vitrine">
+            <label id="type_site"><b>Quel type de site internet souhaitez-vous ?</b></label>
+            <div class="custom-control custom-radio choice mt-4">
+                <input class="custom-control-input vitrine " type="radio" name="choice" id="choiceA" value="site_vitrine">
                 <label class="custom-control-label" for="optionA">Site vitrine</label>
             </div>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="choice" id="choiceB" value="e-commerce">
+            <div class="custom-control custom-radio choice mt-4">
+                <input class="custom-control-input e-commerce" type="radio" name="choice" id="choiceB" value="e-commerce">
                 <label class="custom-control-label" for="optionB">Site e-commerce</label>
             </div>
-            <div class="custom-control custom-radio">
-                <input class="custom-control-input" type="radio" name="choice" id="choiceC" value="logiciel">
+            <div class="custom-control custom-radio choice mt-4">
+                <input class="custom-control-input logiciel" type="radio" name="choice" id="choiceC" value="logiciel">
                 <label class="custom-control-label" for="optionC">Logiciel / Mobile</label>
             </div>
         </div>
@@ -148,7 +48,16 @@
         </div>
     </div>
 
+<pre>
 
+
+
+
+
+
+
+
+</pre>
 
 
 
@@ -159,9 +68,9 @@
 
             // Define routes for each choice
             var routeMapping = {
-                'site_vitrine': '{{ route("site_vitrine") }}',
-                'e-commerce': '{{ route("site_e_commerce") }}',
-                'logiciel': '{{ route("logiciel") }}'
+                'site_vitrine': '{{ route('site_vitrine') }}',
+                'e-commerce': '{{ route('site_e_commerce') }}',
+                'logiciel': '{{ route('logiciel') }}'
             };
 
             // Get the route based on the selected choice
@@ -171,5 +80,4 @@
             window.location.href = selectedRoute;
         }
     </script>
-
 @endsection
