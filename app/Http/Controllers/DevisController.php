@@ -21,7 +21,6 @@ class DevisController extends Controller
         return view('devis-question0', compact('data'));
     }
 
-
     public function site_e_commerce()
     {
 
@@ -71,65 +70,133 @@ class DevisController extends Controller
         $isRedaction = 0;
         $isSeo = 0;
 
-
         // Estimation
-        if(isset($formData['type_site'])){
+        if (isset($formData['type_site'])) {
             $type_site = $formData['type_site'] == 'Personnalisé' ? $personnalise : $prestashop;
         }
 
-        if(isset($formData['logo'])){
+        if (isset($formData['logo'])) {
             $isLogo = $formData['logo'] == 'oui' ? $logo : 0;
         }
 
-
-        if(isset($formData['redaction_contenue'])){
+        if (isset($formData['redaction_contenue'])) {
             $isRedaction = $formData['redaction_contenue'] == 'oui' ? $redaction : 0;
         }
 
-
-        if(isset($formData['referencement'])){
+        if (isset($formData['referencement'])) {
             $isSeo = $formData['referencement'] == 'oui' ? $seo : 0;
         }
 
         $estimation = $type_site + $isLogo + $isRedaction + $isSeo;
 
-      return view('estimationSiteEcommerce', compact('formData', 'estimation'));
-
-
+        return view('estimationSiteEcommerce', compact('formData', 'estimation'));
     }
 
-    public function siteVitrine_Vitrine(Request $request){
+    public function siteVitrine_Vitrine(Request $request)
+    {
         $formData = $request->all();
 
       //  dd($formData);
-      //Types sites
-      $mesure = 175000;
-      $template = 100000;
-      $templatePersonnalisation = 150000;
+        //Types sites
+        $mesure = 175000;
+        $template = 100000;
+        $templatePersonnalisation = 150000;
 
-         //maquette
-         $maquette = 50000;
+        //maquette
+        $maquette = 50000;
 
-     //Nombre de pages
-       $nb_price = 0;
-       if ($nombreDePages >= 1 && $nombreDePages <= 5) {
-        $nb_price = 0;
-    } elseif ($nombreDePages == 6) {
-        $nb_price = 10000;
-    } elseif ($nombreDePages == 7) {
-        $nb_price = 20000;
-    } elseif ($nombreDePages == 8) {
-        $nb_price = 30000;
-    } elseif ($nombreDePages == 9) {
-        $nb_price = 40000;
-    }
-    elseif ($nombreDePages == 10) {
-        $nb_price = 50000;
-    }
-    else {
-        $nb_price = 60000;
-    }
+        //actualites
+        $actualite = 15000;
+
+        //Responsive design
+        $responsive_design = 10000;
+
+        //Référencement SEO
+        $reference_naturel = 25000;
+
+        //Rédaction de contenue
+        $redaction_contenue = 30000;
+
+        //Logo
+        $logo = 50000;
+
+        // Intégration multimédia
+
+        $multimedia = 15000;
+
+        //Nom de domaine
+        $domaine = 250000;
+
+        //Hébergement
+        $hebergement = 100000;
+
+        $type_site = 0;
+        $isMaquette = 0;
+        $nombre_pages = 0;
+        $isActualite = 0;
+        $isResponsive_design = 0;
+        $isReferenceNaturel = 0;
+        $isRedactionContenue = 0;
+        $isLogo = 0;
+        $isMultimedia = 0;
+        $isDomaine = 0;
+        $isHebergement = 0;
+
+        //Estimation
+        if (isset($formData['type_site'])) {
+            if ($formData['type_site'] == 'Entièrement sur mesure') {
+                $type_site = $mesure;
+            } else if ($formData['type_site'] == 'Template') {
+                $type_site = $template;
+            } else {
+                $type_site = $templatePersonnalisation;
+            }
+        }
+
+        if (isset($formData['maquette'])) {
+            $isMaquette = $formData['maquette'] == 'oui' ? $maquette : $isMaquette;
+        }
+
+        if (isset($formData['nombre_pages'])) {
+            $nombre_pages = nombre_pages($formData['nombre_pages']);
+        }
+
+        if (isset($formData['actualite'])) {
+            $isActualite = $formData['actualite'] == 'oui' ? $actualite : $isActualite;
+        }
+
+        if (isset($formData['responsive_design'])) {
+            $isResponsive_design = $formData['responsive_design'] == 'oui' ? $responsive_design : $isResponsive_design;
+        }
+
+        if (isset($formData['reference_naturel'])) {
+            $isReferenceNaturel = $formData['reference_naturel'] == 'oui' ? $reference_naturel : $isReferenceNaturel;
+        }
+
+        if (isset($formData['redaction_contenue'])) {
+            $isRedactionContenue = $formData['redaction_contenue'] == 'oui' ? $redaction_contenue : $isRedactionContenue;
+        }
+
+        if (isset($formData['logo'])) {
+            $isLogo = $formData['logo'] == 'oui' ? $logo : $isLogo;
+        }
+
+        if (isset($formData['multimedia'])) {
+            $isMultimedia = $formData['multimedia'] == 'oui' ? $multimedia : $isMultimedia;
+        }
+
+        if (isset($formData['domaine'])) {
+            $isDomaine = $formData['domaine'] == 'oui' ? $domaine : $isDomaine;
+        }
+
+        if (isset($formData['hebergement'])) {
+            $isHebergement = $formData['hebergement'] == 'oui' ? $hebergement : $isHebergement;
+        }
+
+        $estimation = $type_site + $isMaquette + $nombre_pages + $isActualite +  $isResponsive_design + $isReferenceNaturel + $isRedactionContenue + $isLogo + $isMultimedia + $isDomaine + $isHebergement;
+
+
+        return view('estimationSiteVitrine', compact('formData', 'estimation'));
 
     }
-
 }

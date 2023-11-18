@@ -37,18 +37,18 @@
             <div class="form-group">
                 <label class="type_site"><b>Quel type de site vitrine souhaitez-vous ?</b></label>
                 <div class="custom-control custom-radio choice mt-4">
-                    <input class="custom-control-input " type="radio" name="type_site" id="mesureA" value="mesure"
+                    <input class="custom-control-input " type="radio" name="type_site" id="mesureA" value="Entièrement sur mesure"
                         required>
                     <label class="custom-control-label" for="mesureA">Entièrement sur mesure</label>
                 </div>
                 <div class="custom-control custom-radio choice mt-4">
-                    <input class="custom-control-input" type="radio" name="type_site" id="optionB" value="template"
+                    <input class="custom-control-input" type="radio" name="type_site" id="optionB" value="Template"
                         required>
                     <label class="custom-control-label" for="templateB">Template</label>
                 </div>
                 <div class="custom-control custom-radio choice mt-4">
                     <input class="custom-control-input" type="radio" name="type_site" id="PersonnalisationC"
-                        value="templatePersonnalisation" required>
+                        value="Personnalisation du template" required>
                     <label class="custom-control-label" for="PersonnalisationB">Personnalisation du template</label>
                 </div>
 

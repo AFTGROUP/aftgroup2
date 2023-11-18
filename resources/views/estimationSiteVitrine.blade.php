@@ -3,127 +3,101 @@
 
 @section('content')
 
+@section('styles')
 <style>
-    .banner {
-            background-image: url('assets/img/services/femme-travaillant-ordinateur.jpg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            text-align: center;
-            color: white;
-            position: relative;
-            /* Ajout de position relative */
-        }
+    .bannerSiteInternet {
 
-        .banner::before {
-            content: '';
-            position: absolute;
-            /* Utilisation de position absolute pour le pseudo-élément */
-            top: 0;
-            width: 100%;
-            left: 0;
-            height: 100%;
-            background-color: blue;
-            opacity: 0.5;
-            z-index: 1;
-            /* Utilisation de z-index pour placer l'arrière-plan sous le contenu */
-        }
+        width: 100%;
+        height: 304px;
+        object-fit: cover;
+        background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url('{{ asset('assets/img/f3.jpg') }}');
 
-        .banner .content {
-            position: relative;
-            /* Pour empiler le contenu sur l'arrière-plan */
-            z-index: 1;
-            /* Assurez-vous que le contenu est au premier plan */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            text-align: center;
-            /* Centrer le texte à l'intérieur de la div */
-        }
-    .recap{
-        font-size: 26px;
     }
 
-    </style>
+    @media screen and (max-width:767px) {
 
-<section class="banner">
+        .bannerSiteInternet {
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+</style>
+@endsection
+
+@section('content')
+    <div class="bannerSiteInternet">
         <div class="content">
-            <h3 class="text-light text-center">Quel est le prix pour un site professionnel</h3>
+            <h3 class="text-light text-center site_internet">Quel prix pour un site internet professionnel ?</h3>
         </div>
-</section>
-
-
-    <section class="container recap p-5" >
-        <h6>Recapitulatif</h6>
-
-        <p>Estimation tarification pour la creation de site vitrine </p>
-        <div class="recap-list px-4">
-        <table class="table px-4">
-            <tbody>
-                <tr>
-                    <td> Quel type de site vitrine souhaitez vous ?</td>
-                    <td>Templates</td>
-                </tr>
-                <tr>
-                    <td>Souhaitez vous avoir une maquette</td>
-                    <td>Oui</td>
-                </tr>
-
-                <tr>
-                    <td>Nombre de page</td>
-                    <td>5</td>
-                </tr>
-
-                <tr>
-                    <td>Souhaitez vous a avoir une page d'actualites</td>
-                    <td>Oui</td>
-                </tr>
-                <tr>
-                    <td>Optimisation multi-ecran : Responsive design</td>
-                    <td>Oui</td>
-                </tr>
-
-                <tr>
-                    <td>Optimisation au reference naturel </td>
-                    <td>Oui</td>
-                </tr>
-                <tr>
-                    <td>Faut-il prevoir de la redation de contenue</td>
-                    <td>Oui</td>
-                </tr>
-
-                <tr>
-                    <td>Possedez vous deje un logo</td>
-                    <td>Oui</td>
-                </tr>
-
-                <tr>
-                    <td>Souhaitez-vous integre un ou des modules multimedia ?</td>
-                    <td>Oui</td>
-                </tr>
-
-                <tr>
-                    <td>Possedez vous deja un nom de domaine pour votre site </td>
-                    <td>Oui</td>
-                </tr>
-
-                <tr>
-                    <td>Possedez vous deja un hebergement pour votre site ?</td>
-                    <td>Oui</td>
-                </tr>
-
-
-                <!-- Ajoutez autant de lignes que nécessaire -->
-            </tbody>
-        </table>
-        <div style="text-align: right;"> TOTAL HT : 500 000 euros</div>
     </div>
+
+
+    <section class="container  box-question mt-5 recap p-5">
+        <h6 class="quiz0">Recapitulatif</h6>
+
+        <p class="type_site">Estimation tarification pour la creation de site vitrine </p>
+        <div class="recap-list px-4">
+            <table class="table px-4">
+                <tbody>
+                    <tr>
+                        <td> Quel type de site vitrine souhaitez vous ?</td>
+                        <td> {{ $formData['type_site'] ?? '' }} </td>
+                    </tr>
+                    <tr>
+                        <td>Souhaitez vous avoir une maquette ?</td>
+                        <td> {{ $formData['maquette'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Nombre de pages ?</td>
+                        <td> {{ $formData['nombre_pages'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Souhaitez vous avoir une page d'actualités ?</td>
+                        <td> {{ $formData['actualite'] ?? '' }} </td>
+                    </tr>
+                    <tr>
+                        <td>Optimisation multi-écran : Responsive design ?</td>
+                        <td>{{ $formData['responsive_design'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Optimisation au référence naturel ?</td>
+                        <td> {{ $formData['reference_naturel'] ?? '' }} </td>
+                    </tr>
+                    <tr>
+                        <td>Faut-il prévoir de la redation de contenue ?</td>
+                        <td> {{ $formData['redaction_contenue'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Possedez vous déjà un logo ?</td>
+                        <td>{{ $formData['logo'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Souhaitez-vous intégre un ou des modules multimédia ?</td>
+                        <td>{{ $formData['multimedia'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Possédez vous déja un nom de domaine pour votre site ? </td>
+                        <td>{{ $formData['domaine'] ?? '' }} </td>
+                    </tr>
+
+                    <tr>
+                        <td>Possedez vous déja un hebergement pour votre site ?</td>
+                        <td>{{ $formData['hebergement'] ?? '' }} </td>
+                    </tr>
+
+
+                    <!-- Ajoutez autant de lignes que nécessaire -->
+                </tbody>
+            </table>
+            <div style="text-align: right;"> TOTAL HT : {{ $estimation }} euros</div>
+        </div>
 
     </section>
 
@@ -139,25 +113,4 @@
 
 
     </pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @endsection
