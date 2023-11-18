@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.devis')
 
 @section('content')
     <section class="jarallax dark-mode bg-dark py-xxl-5" data-jarallax data-speed="0.4" id="accueil">
@@ -87,7 +87,7 @@
                             </span>
                         </div>
                         <div class=" col-12">
-                            <p class="text-justify text-center mt-5">Parlez-nous davantage de votre projet
+                            <p class="text-justify text-center mt-3">Parlez-nous davantage de votre projet
                                 et de vos
                                 besoins en répondant en
                                 quelques secondes à un petit questionnaire en fonction de ce que vous
@@ -95,64 +95,72 @@
                         </div>
                     </div>
 
+                    <div class="row justify-content-center align-items-center  ">
+                        <div class="col-lg-8 col-md-12 col-sm-12">
+                            <form action="{{ route('type_site') }}" method="post" class="">
+                                @csrf
+                                <div class="row d-flex justify-content-center align-items-center ">
+                                    <div class="col-12">
+                                        <div class="form-check form-check-inline m-auto">
+                                            <label class="form-check-label " id="madame"
+                                                for="inlineCheckbox2">Madame</label>
+                                            <input class="form-check-input checkbox1" name="genre" type="checkbox"
+                                                id="inlineCheckbox2" value="madame">
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <label class="form-check-label " id="monsieur"
+                                                for="inlineCheckbox1">Monsieur</label>
+                                            <input class="form-check-input checkbox2" name="genre" type="checkbox"
+                                                id="inlineCheckbox1" value="monsieur">
+                                        </div>
 
-                    <form action="{{ route('devis_question') }}" method="post" class="">
-                        @csrf
-                        <div class="row justify-content-center align-items-center ">
-                            <div class="d-flex ">
-                                <div class="form-check form-check-inline m-auto">
-                                    <label class="form-check-label " id="madame" for="inlineCheckbox2">Madame</label>
-                                    <input class="form-check-input checkbox1" name="genre" type="checkbox"
-                                        id="inlineCheckbox2" value="madame">
+                                    </div>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <label class="form-check-label " id="monsieur" for="inlineCheckbox1">Monsieur</label>
-                                    <input class="form-check-input checkbox2" name="genre" type="checkbox"
-                                        id="inlineCheckbox1" value="monsieur">
+
+                                <div class="row justify-content-center align-items-center mb-3  mt-4">
+
+
+                                        <input type="text" class="form-control input_form input_nom" name="nom"
+                                            id="" placeholder="Nom" aria-describedby="emailHelp">
+
                                 </div>
 
-                            </div>
+                                <div class="row justify-content-center align-items-center mb-3 ">
+
+
+                                        <input type="text" class="form-control input_form  input_prenom" name="prenom"
+                                            id="" placeholder="Prénom" aria-describedby="emailHelp">
+
+                                </div>
+
+                                <div class="row justify-content-center align-items-center mb-3 ">
+
+                                        <input type="email" class="form-control input_form " name="email" id=""
+                                            placeholder="Email" aria-describedby="emailHelp">
+
+                                </div>
+
+                                <div class="row d-flex justify-content-center align-items-center mb-3 ">
+
+                                       <div class="col-lg-8 col-12">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Politique d&apos;utilisation et
+                                            de
+                                            confidentialité</label>
+                                       </div>
+
+                                </div>
+
+                                <div class="row justify-content-center align-items-center mb-3 ">
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary w-50 submit_demande">Demande de
+                                                devis</button>
+                                        </div>
+                                    </div>
+
+                            </form>
                         </div>
-
-                        <div class="row justify-content-center align-items-center mb-3  mt-4">
-
-                            <div class=" col-md-12 col-lg-6 col-xs-12">
-                                <input type="text" class="form-control input_form input_nom" name="nom"
-                                    id="" placeholder="Nom" aria-describedby="emailHelp">
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center align-items-center mb-3 ">
-
-                            <div class=" col-md-12 col-lg-6 col-xs-12 ">
-                                <input type="text" class="form-control input_form  input_prenom" name="prenom"
-                                    id="" placeholder="Prénom" aria-describedby="emailHelp">
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center align-items-center mb-3 ">
-                            <div class=" col-md-12 col-lg-6 col-xs-12">
-                                <input type="email" class="form-control input_form " name="email" id=""
-                                    placeholder="Email" aria-describedby="emailHelp">
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center align-items-center mb-3 ">
-                            <div class="ms-5 col-md-12 col-lg-5 col-xs-12 mb-3 form-check  ">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Politique d&apos;utilisation et de
-                                    confidentialité</label>
-                            </div>
-                        </div>
-                        <div class="mb-3 ">
-
-                            <button type="submit" class="btn btn-primary w-50 submit_demande">Demande de devis</button>
-                        </div>
-                    </form>
-
-
-
-
+                    </div>
 
                     <br><br>
 

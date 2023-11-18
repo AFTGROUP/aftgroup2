@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.devis')
 
 @section('styles')
     <style>
@@ -12,9 +12,6 @@
         }
 
         .texte {
-
-            width: 882px;
-            height: 156px;
 
 
             font-family: 'Poppins';
@@ -43,7 +40,7 @@
         .contact span {
             /* Get Beta Access */
 
-          
+
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 600;
@@ -74,11 +71,9 @@
 
 
     <section class="container" id="devis">
-        <div class=" rounded-3 py-5 px-3 px-sm-4 px-lg-0">
+        <div class=" rounded-3 py-5  px-lg-0">
             <div class="row justify-content-center align-items-center pt-1 pb-2 ">
                 <div class="col-xl-7 col-lg-10 col-md-6 mb-4 pb-3 mb-md-0 pb-md-0 ">
-
-
 
                     <p class="texte">PAvez-vous le projet de renforcer
                         l&apos;efficacité opérationnelle de votre

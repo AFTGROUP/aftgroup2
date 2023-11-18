@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.devis')
 
 @section('content')
     <!-- Hero slider + BG parallax -->

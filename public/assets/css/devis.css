@@ -26,8 +26,8 @@
 
 .box-question {
 
-    width: 1080px;
-    height: 633px;
+    width: 90%;
+    height: auto;
     box-shadow: 5px;
 
     background: #FFFFFF;
@@ -36,14 +36,8 @@
 
 }
 
-#quiz0 {
-    /* Create custom landin */
-
-
-    width: 111px;
+.quiz0 {
     height: 39px;
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -52,19 +46,11 @@
     /* identical to box height, or 195% */
     text-align: center;
     letter-spacing: -0.656526px;
-
+    text-align: start;
     color: #3B3A3A;
-
-
 }
 
-#type_site {
-
-
-
-    width: 593px;
-    height: 39px;
-
+.type_site {
 
     font-family: 'Poppins';
     font-style: normal;
@@ -76,19 +62,25 @@
     letter-spacing: -0.656526px;
 
     color: #000000;
+    text-align: start;
 
 
 }
 
 
-  .bannerSiteInternet {
+td,
+.ht {
 
-            width: 100%;
-            height: 304px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.656526px;
+    color: #3B3A3A;
 
-            background: linear-gradient(0deg, rgba(52, 97, 171, 0.88), rgba(52, 97, 171, 0.88)), url('{{ asset('assets/img/f3.jpg') }}');
 
-        }
+}
 
 
 /* Format pc */
@@ -107,13 +99,7 @@
         line-height: 39px;
     }
 
-    #get_devis p {
-
-        position: absolute;
-        width: 469px;
-        height: 56px;
-        left: 500px;
-        top: 700px;
+    #get_devis h1 {
 
         font-family: 'Poppins';
         font-style: normal;
@@ -141,20 +127,14 @@
 
     .checkbox1 {
 
-        /* Rectangle 40 */
-
         box-sizing: border-box;
-
         position: absolute;
         width: 31px;
         height: 31px;
         left: 690px;
         top: 900px;
-
         background: #FFFFFF;
         border: 1px solid #6C757D;
-
-
 
     }
 
@@ -181,13 +161,13 @@
 
     #cadre1 {
         position: relative;
-        left: 0px;
+        left: 30px;
         top: 0px;
     }
 
     #cadre2 {
         position: absolute;
-        left: 350px;
+        left: 382px;
         top: 712px;
     }
 
@@ -265,55 +245,46 @@
 
     .suivant {
         margin-bottom: 10%;
-        /* Rectangle 38 */
-
-
-        width: 196px;
+         width: 196px;
         height: 50px;
-        left: calc(50% - 196px/2 + 405px);
-        top: 926px;
-
         background: #3461AB;
+        border-radius: 5px;
+    }
+
+    .retour {
+
+        box-sizing: border-box;
+        margin-bottom: 10%;
+        width: 196px;
+       height: 50px;
+        border: 2px solid #3461AB;
         border-radius: 5px;
 
     }
 
-
     .site_internet {
-
-
         position: absolute;
         width: 980px;
         height: 56px;
         left: 280px;
         top: 187px;
-
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
         font-size: 40px;
         line-height: 140%;
-
         color: #FFFFFF;
-
-
     }
 
     .choice {
 
-
         box-sizing: border-box;
-
         width: 1001px;
         height: 74px;
-        left: 222px;
-        top: 664px;
 
         background: #F6F6F6;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 26px;
-
-
     }
 
 
@@ -368,18 +339,13 @@
         line-height: 25px;
     }
 
-    #get_devis p {
+    #get_devis h1 {
 
-        position: absolute;
-        width: 469px;
-        height: 56px;
-        left: 0px;
-        top: 360px;
 
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 10px;
         line-height: 140%;
         color: #000000;
     }
@@ -417,6 +383,147 @@
         align-items: center;
 
     }
+
+
+    .checkbox1 {
+
+        box-sizing: border-box;
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 170px;
+        top: 550px;
+        background: #FFFFFF;
+        border: 1px solid #6C757D;
+
+    }
+
+    .checkbox2 {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 310px;
+        top: 550px;
+
+        background: #FFFFFF;
+        border: 1px solid #6C757D;
+
+    }
+
+    #monsieur {
+
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 200px;
+        top: 555px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #1966B3;
+
+
+    }
+
+    #madame {
+
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #1966B3;
+
+    }
+
+    .suivant {
+        margin-bottom: 10%;
+         width: 196px;
+        height: 50px;
+        background: #3461AB;
+        border-radius: 5px;
+    }
+
+    .retour {
+
+        box-sizing: border-box;
+        margin-bottom: 10%;
+        width: 196px;
+       height: 50px;
+        border: 2px solid #3461AB;
+        border-radius: 5px;
+
+    }
+
+    .site_internet {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .choice {
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 74px;
+
+        background: #F6F6F6;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 26px;
+    }
+
+
+    .custom-control-input {
+
+        width: 22px;
+        height: 22px;
+        background: #3461AB;
+        margin-left: 5%;
+        margin-top: 3%;
+
+    }
+
+
+
+    .custom-control-label {
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 39px;
+        /* identical to box height, or 162% */
+        text-align: center;
+        letter-spacing: -0.656526px;
+
+        color: #3B3A3A;
+        margin-left: 2%;
+    }
+
+
+
+
+
+
 }
 
 .afterGetDevis {
@@ -425,24 +532,18 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-
     text-align: center;
     letter-spacing: -0.656526px;
-
     color: #000000;
 
 }
 
 
 
-.cercle {
-    /* Ellipse 1 */
+/* .cercle {
     position: absolute;
     width: 50px;
     height: 50px;
     left: 760px;
     top: 30px;
-
-    /* background: #E20044; */
-
-}
+} */

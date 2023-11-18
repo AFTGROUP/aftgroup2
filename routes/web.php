@@ -43,7 +43,7 @@ Route::get('/devis', [DevisController::class, 'index'])->name('devis');
 Route::get('/devis-question', function () {
     return view('devis-question0');
 });
-Route::post('/devis-question', [DevisController::class, 'question0'])->name('devis_question');
+Route::post('/type_site', [DevisController::class, 'question0'])->name('type_site');
 
 
 //Site vitrine
@@ -59,6 +59,7 @@ Route::get('/logiciel', [DevisController::class, 'logiciel'])->name('logiciel');
 
 
 Route::post('/siteEcommerce_choice', [DevisController::class, 'siteEcommerce_choice'])->name('siteEcommerce_choice');
+Route::post('/siteVitrine_choice', [DevisController::class, 'siteVitrine_Vitrine'])->name('siteVitrine_choice');
 
 
 Auth::routes();

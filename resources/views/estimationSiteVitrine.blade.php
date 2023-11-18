@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.devis')
+
 
 @section('content')
 
@@ -48,7 +49,7 @@
     .recap{
         font-size: 26px;
     }
-       
+
     </style>
 
 <section class="banner">
@@ -123,7 +124,7 @@
         </table>
         <div style="text-align: right;"> TOTAL HT : 500 000 euros</div>
     </div>
-    
+
     </section>
 
 

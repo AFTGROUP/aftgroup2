@@ -1,4 +1,5 @@
-@extends('layouts.app')
+@extends('layouts.devis')
+
 @section('content')
 <!-- Hero slider + BG parallax -->
 <section class="jarallax dark-mode bg-dark py-xxl-5" data-jarallax data-speed="0.4" id="accueil">
@@ -341,8 +342,8 @@
    <div class="col-md-6" style="padding: 4%" >
       <h2 style="text-align: left;">Services IT Managés</h2>
       <p style="text-align: justify; color: black;">La gestion des services IT est notre expertise.
-       Nous prenons en charge la gestion complète de votre infrastructure informatique, de la surveillance 
-       proactive à la maintenance, en passant par la gestion des systèmes. La mission de AFT GROUP est de libérer 
+       Nous prenons en charge la gestion complète de votre infrastructure informatique, de la surveillance
+       proactive à la maintenance, en passant par la gestion des systèmes. La mission de AFT GROUP est de libérer
        votre entreprise des tracas informatiques, en vous permettant de vous concentrer sur votre cœur de métier.
       </p>
    </div>
@@ -387,7 +388,7 @@
             </div>
          <img src="assets/img/services/Vector 10.png" alt="Description de la troisième image" style="max-width: 60%; height: auto; position: absolute; top: 110%; left: 55%; transform: translate(-50%, -50%);">
       </div>
-   </div>  
+   </div>
 </div>
 
 <!-- item 2 -->
@@ -436,9 +437,9 @@
    </div>
    <div class="col-md-6" style="padding: 4%">
       <h2 style="text-align: left;">Sécurité</h2>
-      <p style="text-align: justify; color: black;">Au sein de AFT GROUP, la sécurité informatique est notre priorité. 
-      Nous offrons une gamme complète de services de sécurité, allant de la mise en place de pare-feux et de systèmes de 
-      détection des intrusions à la protection contre les logiciels malveillants et la gestion des sauvegardes. Notre équipe de 
+      <p style="text-align: justify; color: black;">Au sein de AFT GROUP, la sécurité informatique est notre priorité.
+      Nous offrons une gamme complète de services de sécurité, allant de la mise en place de pare-feux et de systèmes de
+      détection des intrusions à la protection contre les logiciels malveillants et la gestion des sauvegardes. Notre équipe de
       spécialistes en sécurité travaille sans relâche pour protéger vos données et votre infrastructure informatique.
       </p>
    </div>
@@ -469,7 +470,7 @@
                   <span style="font-size: 15px; color: white; margin-left: 3px;">PC et Tablettes</span>
                </a>
             </div>
-      </div>              
+      </div>
    </div>
 </div>
 </div>
@@ -497,7 +498,7 @@
         <img src="assets/img/services/personne-travaillant-html-ordinateur_23-2150038846.jpg" alt="Description de la deuxième image" style="width: 43%; height: 80%; position: absolute; top: 50%; left: 25%; transform: translate(-50%, -50%); border-radius: 10px; filter: brightness(0.2);">
         <img src="assets/img/services/Vector 10.png" alt="Description de la troisième image" style="max-width: 50%; height: auto; position: absolute; top: 110%; left: 45%; transform: translate(-50%, -50%);">
      </div>
-  </div>  
+  </div>
 </div>
 
 <!-- item 2 -->
@@ -521,28 +522,28 @@
 
 </div>
 
-  
+
 
 </div>
 <script>
     const linkElements = document.querySelectorAll("[data-tab]");
-    
+
     linkElements.forEach((element) => {
       element.addEventListener("click", (e) => {
-        e.preventDefault(); 
-    
+        e.preventDefault();
+
         linkElements.forEach((link) => {
           link.classList.remove("active-link");
         });
-    
+
        element.classList.add("active-link");
-    
+
         const tabId = element.getAttribute("data-tab");
-    
+
         document.querySelectorAll(".tab-content").forEach((content) => {
           content.classList.remove("active");
         });
-    
+
       document.getElementById(tabId).classList.add("active");
       });
     });
@@ -554,5 +555,5 @@
         placement:'bottom', trigger:'click'
       })
     })
-</script>  
+</script>
  @endsection
